@@ -2,7 +2,7 @@
 ---
 ##### Nachdem wir das Modul in MMLC installiert haben, können wir eine neue Sprache in ***Land/Steuer -> Sprachen*** mit folgenden Daten erstellen:
 
-- Name: French
+- Name: Français
 - Codierung: fr
 - Charset: utf-8
 - Symbol: icon.gif
