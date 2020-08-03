@@ -1,0 +1,9 @@
+{$MESSAGE}
+
+code du coupon dans le champ de saisie prévu à cet effet lors du passage à la caisse.
+
+Votre code de coupon est: {$COUPON_ID}
+
+Vous pouvez utiliser le code du coupon la prochaine fois que vous nous rendez visite à {$WEBSITE}.
+
+[SIGNATUR]

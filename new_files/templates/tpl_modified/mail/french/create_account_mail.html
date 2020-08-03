@@ -1,0 +1,53 @@
+<div style="width:700px;margin: 0px auto;">
+<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr> 
+    	<td align="center" style="padding: 10px 0px;"><img src="{$logo_path}logo.gif" /></td>
+	</tr>
+	<tr> 
+    <td style="font-size:14px;text-transform:uppercase;padding:10px 5px;border-top: 1px dotted #999;border-bottom: 1px dotted #999;">
+      <font face="Tahoma, Verdana, sans-serif">Compte cr&eacute;&eacute; avec succ&egrave;s</font>
+    </td>
+	</tr>
+	<tr> 
+		<td>
+      <br />
+      <font size="2" face="Tahoma, Verdana, sans-serif"><b>{if $GENDER != ''}Cher {$GENDER}{else}Bonjour{/if} {$NAME},</b><br />
+      <br />
+      votre compte a &eacute;t&eacute; cr&eacute;&eacute; avec succ&egrave;s.<br />
+      Vous avez maintenant acc&egrave;s aux fonctionnalit&eacute;s suivantes:<br />
+      <br />
+      <b>Panier d'achat</b> - Les produits plac&eacute;s dans le panier y resteront jusqu'&agrave; ce qu'ils soient supprim&eacute;s ou achet&eacute;s.<br />
+      <br />
+      <b>Carnet d'adresses</b> - Le carnet d'adresses vous permet de sauvegarder plusieurs destinations d'exp&eacute;dition diff&eacute;rentes.<br />
+      <br />
+      <b>Historique des commandes</b> - L'historique de vos commandes est toujours disponible pour vous.<br />
+      <br />
+      <b>&Eacute;valuation du produit</b> - Evaluez et commentez nos produits.<br />
+      <br />
+      <u>A l'attention de:</u> Si ce compte n'a pas &eacute;t&eacute; cr&eacute;&eacute; par vous, 
+      veuillez nous contacter &agrave; l'adresse suivante: <a href="mailto:{$content.MAIL_REPLY_ADDRESS}">{$content.MAIL_REPLY_ADDRESS}</a><br />
+
+      {if $SEND_GIFT == true}
+      <br />
+      Pour vous remercier d'avoir cr&eacute;&eacute; votre compte, vous avez re&ccedil;u un <b>{$GIFT_AMMOUNT}</b> ch&egrave;que cadeau!<br />
+      <br />
+      &Eacute;changez votre bon avec le code suivant <b>{$GIFT_CODE}</b> lors d'une commande ou simplement en cliquant sur le lien suivant
+      <a href="{$GIFT_LINK}">[redeem Voucher]</a>.<br />
+      {/if}
+
+      {if $SEND_COUPON == true}
+      <br />
+      Pour vous remercier d'avoir cr&eacute;&eacute; votre compte, vous avez re&ccedil;u un bon de r&eacute;duction.<br />
+      Les d&eacute;tails du bon sont les suivants: <b>{$COUPON_DESC}</b><br />
+      Remboursez votre bon en entrant le code {$COUPON_CODE} lors de la proc&eacute;dure de paiement, lorsqu'on vous le demande.<br />
+      {/if}
+      <br />
+      Si vous avez des questions, veuillez nous contacter &agrave; l'adresse suivante: <a href="mailto:{$content.MAIL_REPLY_ADDRESS}">{$content.MAIL_REPLY_ADDRESS}</a>
+      </font>
+
+		</td>
+	</tr>
+</table>
+
+[SIGNATUR]
+</div>

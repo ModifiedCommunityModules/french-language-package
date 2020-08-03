@@ -1,0 +1,31 @@
+
+Merci de vous être inscrit!
+
+{if isset($LINK)}
+Vous recevez cet e-mail parce que vous voulez recevoir notre bulletin d'information.
+
+Veuillez cliquer sur le lien d'activation suivant pour recevoir les bulletins d'information. Si vous n'êtes pas abonné à ce service, veuillez ignorer cet e-mail!
+
+Votre lien d'activation:
+{$LINK}
+
+Si vous ne vous êtes pas inscrit à notre lettre d'information ou si vous ne souhaitez pas recevoir la lettre d'information, veuillez ignorer le lien d'activation.
+
+Votre consentement à l'envoi de notre bulletin d'information est révocable à tout moment. La lettre d'information est envoyée conformément à notre politique de confidentialité.
+{/if}
+
+{if $SEND_GIFT == true}
+Pour vous remercier d'avoir créé votre compte, vous avez reçu un bon cadeau {$GIFT_AMMOUNT}!
+
+Échangez votre bon avec le code suivant - {$GIFT_CODE} - lors d'une commande ou simplement en cliquant sur le lien suivant {$GIFT_LINK}.
+{/if}
+
+{if $SEND_COUPON == true}
+Pour vous remercier d'avoir créé votre compte, vous avez reçu un bon de réduction!
+
+Les détails du bon sont les suivants: {$COUPON_DESC}
+
+Remboursez votre bon en entrant le code {$COUPON_CODE} lors de la procédure de paiement, lorsqu'on vous le demande.
+{/if} 
+
+[SIGNATUR]

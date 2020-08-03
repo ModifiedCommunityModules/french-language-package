@@ -1,0 +1,12 @@
+
+{$MESSAGE}
+  
+Vue d'ensemble: {$AMMOUNT}
+    
+Le code de votre bon est: {$GIFT_ID}
+
+Rachetez votre bon en cliquant simplement sur le lien suivant - {$GIFT_LINK}.
+
+Si vous avez des difficultés avec le lien, veuillez visiter notre site web {$WEBSITE} et entrer le code manuellement.
+
+[SIGNATUR]

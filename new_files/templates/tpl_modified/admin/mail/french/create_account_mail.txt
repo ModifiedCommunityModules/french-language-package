@@ -1,0 +1,15 @@
+
+
+{if $GENDER == 'm'}Cher Monsieur{elseif $GENDER == 'f'}Chère Madame/Monsieur{else}Bonjour{/if} {$NAME},
+
+nous venons de créer votre compte client.
+
+{if $COMMENTS} Note: {$COMMENTS}{/if}
+
+Vous pouvez vous connecter à notre magasin avec votre adresse électronique et votre mot de passe:
+
+adresse électronique:{$EMAIL}
+
+Mot de passe: {$PASSWORD}
+
+[SIGNATUR]

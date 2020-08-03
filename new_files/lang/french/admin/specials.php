@@ -1,0 +1,31 @@
+<?php
+define('HEADING_TITLE', 'Specials');
+define('TABLE_HEADING_PRODUCTS', 'Produits');
+define('TABLE_HEADING_PRODUCTS_QUANTITY', 'Quantit&eacute; de produits (stock)');
+define('TABLE_HEADING_SPECIALS_QUANTITY', 'Quantit&eacute; sp&eacute;ciale');
+define('TABLE_HEADING_START_DATE', 'Date de d&eacute;but');
+define('TABLE_HEADING_EXPIRES_DATE', 'Date d\'expiration');
+define('TABLE_HEADING_PRODUCTS_PRICE', 'Produits Prix');
+define('TABLE_HEADING_STATUS', 'Statut');
+define('TABLE_HEADING_ACTION', 'Action');
+define('TEXT_SPECIALS_PRODUCT', 'Produit:');
+define('TEXT_SPECIALS_SPECIAL_PRICE', 'Prix sp&eacute;cial:');
+define('TEXT_SPECIALS_SPECIAL_QUANTITY', 'Quantit&eacute;:');  
+define('TEXT_SPECIALS_START_DATE', 'Date de d&eacute;but: <small>(AAAA-MM-JJ)</small>');
+define('TEXT_SPECIALS_EXPIRES_DATE', 'Date d\'expiration: <small>(AAAA-MM-JJ)</small>');
+define('TEXT_INFO_DATE_ADDED', 'Date d\'ajout:');
+define('TEXT_INFO_LAST_MODIFIED', 'Derni&egrave;re modification:');
+define('TEXT_INFO_NEW_PRICE', 'Nouveau prix:');
+define('TEXT_INFO_ORIGINAL_PRICE', 'Prix d\'origine:');
+define('TEXT_INFO_PERCENTAGE', 'Pourcentage:');
+define('TEXT_INFO_START_DATE', 'Commencer &agrave;:');
+define('TEXT_INFO_EXPIRES_DATE', 'Expire &agrave;:');
+define('TEXT_INFO_STATUS_CHANGE', 'D&eacute;sactiv&eacute; le:');
+define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Supprimer sp&eacute;cial');
+define('TEXT_INFO_DELETE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer le prix des produits sp&eacute;ciaux?');
+define('TEXT_IMAGE_NONEXISTENT','Aucune image disponible!'); 
+define('TEXT_SPECIALS_PRICE_TIP', 'Vous pouvez entrer un pourcentage &agrave; d&eacute;duire dans le champ Prix sp&eacute;cial, par exemple: <strong>20%</strong><br>Si vous entrez un nouveau prix, le s&eacute;parateur d&eacute;cimal doit &ecirc;tre un \'.\' (point d&eacute;cimal), par exemple: <strong>49.99</strong>');
+define('TEXT_SPECIALS_QUANTITY_TIP', 'Vous pouvez saisir la quantit&eacute; de l\'article dans le champ <strong>Quantit&eacute;</strong> pour les produits, le prix sp&eacute;cial s\'applique &agrave;.<br> Vous pouvez d&eacute;cider de v&eacute;rifier ou non le stock de produits sp&eacute;ciaux sous "Configuration" -> "Options sur actions" -> "V&eacute;rifier le stock de produits sp&eacute;ciaux".');
+define('TEXT_SPECIALS_START_DATE_TIP', 'Indiquez la date &agrave; partir de laquelle le prix de l\'offre sera applicable.<br>');
+define('TEXT_SPECIALS_EXPIRES_DATE_TIP', 'Laissez la case <strong> date d\'expiration</strong> vide pour aucune expiration.<br>');
+?>

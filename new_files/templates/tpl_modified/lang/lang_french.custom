@@ -1,0 +1,45 @@
+zoomtext = 'Pour une vue plus large, cliquez sur la vignette'
+products_desc = 'Description des produits'
+products_fsk18_check = 'Cet article ne peut &ecirc;tre achet&eacute; qu'apr&egrave;s v&eacute;rification de l'&acirc;ge.'
+products_manufacturer_model = 'MPN:'
+products_tags = 'Caract&eacute;ristiques'
+heading_products_tags = 'Caract&eacute;ristiques du produit'
+
+first = '&laquo; premi&egrave;re'
+back = '&laquo; retour'
+overview = 'Vue d'ensemble'
+next = 'suivant &raquo;'
+last = 'dernier &raquo;'
+
+heading_miscellaneous = 'Modes de paiement'
+text_miscellaneous = 'La bo&icirc;te peut &ecirc;tre modifi&eacute;e sous tpl_modified/boxes/box_miscellaneous.html. Les variables linguistiques sont situ&eacute;es dans le fichier tpl_modified/lang/german/lang_german.custom.'
+
+ab_admin = 'Adminarea'
+ab_orders = 'Commandes'
+ab_contentmanager = 'Gestionnaire de contenu'
+ab_customers = 'Clients'
+ab_category = 'Cat&eacute;gorie/Produits'
+ab_logoff = 'Logoff'
+ab_news = 'Nouvelles'
+ab_offline = 'Boutique hors ligne'
+ab_update = 'Mise &agrave; jour'
+ab_support = 'Soutien'
+ab_shop = 'Boutique'
+ab_caching = 'Caching'
+
+ab_edit_content = 'Modifier le contenu'
+ab_edit_product = 'Modifier le produit'
+ab_edit_attributes = 'Modifier les attributs d'un produit'
+ab_edit_category = 'Cat&eacute;gorie d'&eacute;dition'
+ab_edit_xsell = 'Modifier la vente crois&eacute;e'
+ab_edit_tags = 'Caract&eacute;ristiques du produit'
+
+info_reviews = 'Examens:'
+info_review = 'Revue:'
+
+heading_trustedshops = 'Magasins de confiance'
+
+text_search_again = 'D&eacute;sol&eacute;, nous n'avons pas pu trouver un produit correspondant &agrave; votre demande de recherche'
+
+listing_listview = 'Vue de la liste'
+listing_boxview = 'Vue d'ensemble'

@@ -1,0 +1,32 @@
+<?php
+define('HEADING_TITLE_OPT', 'Options des produits');
+define('HEADING_TITLE_VAL', 'Valeurs des options');
+define('HEADING_TITLE_ATRIB', 'Attributs des produits');
+define('TABLE_HEADING_ID', 'ID');
+define('TABLE_HEADING_PRODUCT', 'Nom du produit');
+define('TABLE_HEADING_OPT_NAME', 'Nom de l\'option');
+define('TABLE_HEADING_OPT_VALUE', 'Valeur de l\'option');
+define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_SORTORDER', 'Triage');
+define('TEXT_INFO_SEARCH', 'Recherchez: ');
+define('TEXT_INFO_OPTION_NAME', 'Nom:');
+define('TEXT_INFO_OPTION_SORT', 'Trier:');
+define('TEXT_INFO_NUMBER_OPTION', 'Nombre de valeurs:');
+define('TEXT_INFO_HEADING_NEW_OPTION', 'Nouveaut&eacute;');
+define('TEXT_INFO_NEW_OPTION_INTRO', 'Veuillez saisir la nouvelle fonction en incluant toutes les donn&eacute;es pertinentes');
+define('TEXT_INFO_HEADING_EDIT_OPTION', 'Fonction d\'&eacute;dition');
+define('TEXT_INFO_EDIT_OPTION_INTRO', 'Veuillez apporter les modifications n&eacute;cessaires.');
+define('TEXT_INFO_HEADING_DELETE_OPTION', 'Supprimer un &eacute;l&eacute;ment');
+define('TEXT_INFO_DELETE_OPTION_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer cette fonction?');
+define('TEXT_WARNING_OF_DELETE', 'Cette option a des produits et des valeurs qui lui sont li&eacute;s - il n\'est pas s&ucirc;r de la supprimer.');
+define('TEXT_DISPLAY_NUMBER_OF_OPTIONS', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (sur <b>%d</b> caract&eacute;ristiques)');
+define('TEXT_INFO_VALUE_NAME', 'Valeur:');
+define('TEXT_INFO_VALUE_SORT', 'Trier:');
+define('TEXT_INFO_HEADING_NEW_VALUE', 'Nouvelle valeur');
+define('TEXT_INFO_NEW_VALUE_INTRO', 'Veuillez saisir la nouvelle valeur en incluant toutes les donn&eacute;es pertinentes');
+define('TEXT_INFO_HEADING_EDIT_VALUE', 'Valeur d\'&eacute;dition');
+define('TEXT_INFO_EDIT_VALUE_INTRO', 'Veuillez apporter les modifications n&eacute;cessaires.');
+define('TEXT_INFO_HEADING_DELETE_VALUE', 'Effacer la valeur');
+define('TEXT_INFO_DELETE_VALUE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer cette valeur?');
+define('TEXT_DISPLAY_NUMBER_OF_VALUES', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (sur <b>%d</b> valeurs)');
+?>

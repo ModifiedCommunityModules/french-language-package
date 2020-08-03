@@ -1,0 +1,31 @@
+<?php
+define('HEADING_TITLE', 'Zones fiscales');
+define('TABLE_HEADING_COUNTRY', 'Pays');
+define('TABLE_HEADING_COUNTRY_ZONE', 'Zone');
+define('TABLE_HEADING_TAX_ZONES', 'Zones fiscales');
+define('TABLE_HEADING_ACTION', 'Action');
+define('TEXT_INFO_HEADING_NEW_ZONE', 'Nouvelle zone');
+define('TEXT_INFO_NEW_ZONE_INTRO', 'Veuillez saisir les informations relatives &agrave; la nouvelle zone');
+define('TEXT_INFO_HEADING_EDIT_ZONE', 'Zone d\'&eacute;dition');
+define('TEXT_INFO_EDIT_ZONE_INTRO', 'Veuillez apporter les modifications n&eacute;cessaires');
+define('TEXT_INFO_HEADING_DELETE_ZONE', 'Supprimer la zone');
+define('TEXT_INFO_DELETE_ZONE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer cette zone?');
+define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'Nouvelle sous-zone');
+define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Veuillez saisir les informations relatives &agrave; la nouvelle sous-zone');
+define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'Sous-zone d\'&eacute;dition');
+define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Veuillez apporter les modifications n&eacute;cessaires');
+define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Supprimer la sous-zone');
+define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer cette sous-zone?');
+define('TEXT_INFO_DATE_ADDED', 'Date d\'ajout:');
+define('TEXT_INFO_LAST_MODIFIED', 'Derni&egrave;re modification:');
+define('TEXT_INFO_ZONE_NAME', 'Nom de la zone:');
+define('TEXT_INFO_NUMBER_ZONES', 'Nombre de zones:');
+define('TEXT_INFO_ZONE_DESCRIPTION', 'Description:');
+define('TEXT_INFO_COUNTRY', 'Pays:');
+define('TEXT_INFO_COUNTRY_ZONE', 'Zone:');
+define('TYPE_BELOW', 'Toutes les zones');
+define('PLEASE_SELECT', 'Toutes les zones');
+define('TEXT_ALL_COUNTRIES', 'Tous les pays');
+define('TEXT_INFO_ZONE_INFO', 'Afficher les informations sur les droits de douane pour cette zone?');
+define('TEXT_INFO_ZONE_INFO_DEFAULT', 'Infos sur les droits s&eacute;lectionn&eacute;s.');
+?>

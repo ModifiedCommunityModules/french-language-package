@@ -1,0 +1,49 @@
+<div style="width:700px;margin: 0px auto;">
+<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr> 
+    	<td align="center" style="padding: 10px 0px;"><img src="{$logo_path}logo.gif" /></td>
+	</tr>
+	<tr> 
+    <td style="font-size:14px;text-transform:uppercase;padding:10px 5px;border-top: 1px dotted #999;border-bottom: 1px dotted #999;">
+      <font face="Tahoma, Verdana, sans-serif">Merci de vous &ecirc;tre inscrit</font>
+    </td>
+	</tr>
+	<tr> 
+		<td>
+      <br />
+      <font size="2" face="Tahoma, Verdana, sans-serif"><b>Merci de vous &ecirc;tre inscrit!</b><br />
+			<br />
+			{if isset($LINK)}
+			Vous recevez cet e-mail parce que vous voulez recevoir notre bulletin d'information.<br />
+			<br />
+      Veuillez cliquer sur le lien d'activation suivant pour recevoir les bulletins d'information. Si vous n'&ecirc;tes pas abonn&eacute; &agrave; ce service, veuillez ignorer cet e-mail!<br />
+      <br />
+      <b>Votre lien d'activation:</b><br />
+      <a href="{$LINK}">{$LINK}</a><br />
+      <br />
+      Si vous ne vous &ecirc;tes pas inscrit &agrave; notre lettre d'information ou si vous ne souhaitez pas recevoir la lettre d'information, veuillez ignorer le lien d'activation.<br />
+      <br />
+      Votre consentement &agrave; l'envoi de notre bulletin d'information est r&eacute;vocable &agrave; tout moment. La lettre d'information est envoy&eacute;e conform&eacute;ment &agrave; notre politique de confidentialit&eacute;.<br />
+      {/if}
+
+      {if $SEND_GIFT == true}
+      <br />
+      Pour vous remercier d'avoir cr&eacute;&eacute; votre compte, vous avez re&ccedil;u un ch&egrave;que cadeau de <b>{$GIFT_AMMOUNT}</b>!<br />
+      <br />
+      &Eacute;changez votre bon avec le code suivant <b>{$GIFT_CODE}</b> lors d'une commande ou simplement en cliquant sur le lien suivant
+      <a href="{$GIFT_LINK}">[redeem Voucher]</a>.<br />
+      {/if}
+
+      {if $SEND_COUPON == true}
+      <br />
+      Pour vous remercier d'avoir cr&eacute;&eacute; votre compte, vous avez re&ccedil;u un bon de r&eacute;duction.<br />
+      Les d&eacute;tails du bon sont les suivants: <b>{$COUPON_DESC}</b><br />
+      Remboursez votre bon en saisissant le code {$COUPON_CODE} lors de la proc&eacute;dure de paiement, lorsqu'on vous le demande.<br />
+      {/if}
+      </font>
+		</td>
+	</tr>
+</table>
+
+[SIGNATUR]
+</div>

@@ -1,0 +1,31 @@
+<?php
+define('HEADING_TITLE', 'Langues');
+define('TABLE_HEADING_LANGUAGE_NAME', 'Langue');
+define('TABLE_HEADING_LANGUAGE_CODE', 'Code');
+define('TABLE_HEADING_ACTION', 'Action');
+define('TEXT_INFO_EDIT_INTRO', 'Veuillez apporter les modifications n&eacute;cessaires');
+define('TEXT_INFO_LANGUAGE_NAME', 'Nom:');
+define('TEXT_INFO_LANGUAGE_CODE', 'Code:');
+define('TEXT_INFO_LANGUAGE_IMAGE', 'Image:');
+define('TEXT_INFO_LANGUAGE_DIRECTORY', 'R&eacute;pertoire:');
+define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Ordre de tri:');
+define('TEXT_INFO_INSERT_INTRO', 'Veuillez saisir la nouvelle langue et les donn&eacute;es qui s\'y rapportent');
+define('TEXT_INFO_DELETE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer cette langue?');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE', 'Nouvelle langue');
+define('TEXT_INFO_HEADING_EDIT_LANGUAGE', 'Langue d\'&eacute;dition');
+define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Supprimer une langue');
+define('TEXT_INFO_LANGUAGE_CHARSET','Charset');
+define('TEXT_INFO_LANGUAGE_CHARSET_INFO','m&eacute;ta-contenu:');
+define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Erreur : La langue par d&eacute;faut ne peut pas &ecirc;tre supprim&eacute;e. Veuillez d&eacute;finir une autre langue par d&eacute;faut et r&eacute;essayer.');
+define('TEXT_INFO_LANGUAGE_STATUS', 'Statut:');
+define('TABLE_HEADING_LANGUAGE_STATUS', 'Statut');
+define('TEXT_INFO_LANGUAGE_STATUS_ADMIN', 'Statut Admin:');
+define('TABLE_HEADING_LANGUAGE_STATUS_ADMIN', 'Statut Admin');
+define ('TEXT_LANGUAGE_TRANSFER_INFO', 'Transf&eacute;rer les tableaux linguistiques suivants');
+define ('TEXT_LANGUAGE_TRANSFER_BTN', 'Transfer');
+define ('TEXT_LANGUAGE_TRANSFER_FROM', 'Tir&eacute; de');
+define ('TEXT_LANGUAGE_TRANSFER_TO', ' &agrave; ');
+define ('TEXT_LANGUAGE_TRANSFER_OK', 'Transfert r&eacute;ussi!');
+define ('TEXT_LANGUAGE_TRANSFER_ERR', 'Veuillez choisir une autre langue!');
+define ('TEXT_LANGUAGE_TRANSFER_INFO2', '<strong>ATTENTION:</strong> Lors du transfert, les textes existants seront &eacute;cras&eacute;s. Veillez donc &agrave; sauvegarder la base de donn&eacute;es avant.');
+?>

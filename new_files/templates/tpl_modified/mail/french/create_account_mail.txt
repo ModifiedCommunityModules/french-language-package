@@ -1,0 +1,30 @@
+{if $GENDER != ''}Cher {$GENDER}{else}Bonjour{/if} {$NAME},
+
+votre compte a été créé avec succès!
+
+Vous avez maintenant accès aux fonctionnalités suivantes:
+
+-Panier d'achat - Les produits placés dans le panier d'achat y resteront jusqu'à ce qu'ils soient supprimés ou achetés.
+-Carnet d'adresses - Le carnet d'adresses vous permet d'enregistrer plusieurs destinations d'expédition différentes.
+-Historique des commandes - L'historique de vos commandes est toujours disponible pour vous.
+-Evaluation des produits - Evaluez et commentez nos produits !
+
+Si ce compte n'a pas été créé par vous, veuillez nous contacter à l'adresse {$content.MAIL_REPLY_ADDRESS}.
+
+{if $SEND_GIFT == true}
+Pour vous remercier d'avoir créé votre compte, vous avez reçu un bon cadeau  {$GIFT_AMMOUNT}!
+
+Échangez votre bon avec le code suivant - {$GIFT_CODE} - lors d'une commande ou simplement en cliquant sur le lien suivant {$GIFT_LINK}.
+{/if}
+
+{if $SEND_COUPON == true}
+Pour vous remercier d'avoir créé votre compte, vous avez reçu un bon de réduction!
+
+Les détails du bon sont les suivants: {$COUPON_DESC}
+
+Remboursez votre bon en entrant le code {$COUPON_CODE} lors de la procédure de paiement, lorsqu'on vous le demande.
+{/if} 
+
+Si vous avez des questions, veuillez nous contacter à l'adresse suivante {$content.MAIL_REPLY_ADDRESS}!
+
+[SIGNATUR]

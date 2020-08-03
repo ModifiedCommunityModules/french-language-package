@@ -1,0 +1,15 @@
+
+---------------------------------------------------------------------------------------- 
+VOUS AVEZ REÇU UN BON DE {$AMMOUNT} CADEAUX!
+----------------------------------------------------------------------------------------
+
+Ce chèque cadeau vous a été envoyé par: {$FROM_NAME}
+
+Message:
+{$MESSAGE}
+
+Le code de votre bon est: {$GIFT_CODE}
+
+Échangez votre bon lors d'une commande ou simplement en cliquant sur le lien suivant - {$GIFT_LINK}.
+
+[SIGNATUR]

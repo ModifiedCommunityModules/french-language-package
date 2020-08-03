@@ -1,0 +1,8 @@
+
+{if $GENDER == 'm'}Cher Monsieur{elseif $GENDER == 'f'}Chère Madame/Monsieur{else}Bonjour{/if} {$NAME},
+
+Le code du bon que vous avez acheté a été activé !
+Vous pouvez maintenant utiliser votre bon d'achat et/ou l'envoyer à quelqu'un par e-mail.
+Votre bon d'achat vaut  {$AMMOUNT}.
+
+[SIGNATUR]
