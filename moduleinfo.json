@@ -1,16 +1,16 @@
 {
     "name": "Sprachpaket französisch",
-    "archiveName": "fishnetservices/french-language-package",
+    "archiveName": "modifiedcommunitymodules/french-language-package",
     "sourceDir": "new_files",
     "version": "auto",
-    "productNumber": "49003",
-    "tags": "49003",
+  
     "shortDescription": "Sprachpaket französisch",
     "description": "Französisches Sprachpaket ab Modified 2.0.5.0",
+	
     "price": "free",
-    "developer": "fishnetservices",
-    "developerWebsite": "https://www.shopbetreuung.com/",
-    "website": "https://www.shopbetreuung.com/",
+    "developer": "Von vielen Entwicklern",
+    "developerWebsite": "https://www.modified-shop.org/forum/index.php?topic=36847.msg335412#msg335412",
+    "website": "https://www.modified-shop.org/forum/index.php?topic=36847.msg335412#msg335412",
     "category": "language",
     "modifiedCompatibility": [
         "2.0.5.0", "2.0.5.1"
