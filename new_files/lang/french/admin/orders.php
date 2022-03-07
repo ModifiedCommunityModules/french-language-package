@@ -116,6 +116,9 @@ define('TEXT_SHIPCLOUD_INSURANCE_NO', 'assurance plus &eacute;lev&eacute;e non')
 define('TEXT_SHIPCLOUD_INSURANCE_YES', 'assurance plus &eacute;lev&eacute;e oui');
 define('TEXT_SHIPCLOUD_BULK', 'En vrac');
 define('TEXT_SHIPCLOUD_PARCEL', 'Colis');
+define('TEXT_SHIPCLOUD_DPAG_WARENPOST', 'Warenpost');
+define('TEXT_SHIPCLOUD_DPAG_WARENPOST_UNTRACKED', 'Warenpost (non trac&eacute;)');
+define('TEXT_SHIPCLOUD_DPAG_WARENPOST_SIGNATURE', 'Poste de guerre (signature)');
 define('DOWNLOAD_LABEL', 'T&eacute;l&eacute;charger le label');
 define('CREATE_LABEL', 'Cr&eacute;er un label');
 define('TEXT_DELETE_SHIPMENT_SUCCESS', 'shipcloud Label supprim&eacute;.');

@@ -20,6 +20,9 @@ $prefix = 'MODULE_ORDER_TOTAL_BILLPAY_';
   define($prefix.'FEE_VALUE_TITLE','Montant fixe');
   define($prefix.'FEE_VALUE_DESC','Indiquez un montant fixe pour chaque pays (c\'est-&agrave;-dire DE:5;CH:7).');
 
+  define($prefix.'FEE_GRADUATE_TITLE','Echelonnement');
+  define($prefix.'FEE_GRADUATE_DESC','Saisissez ici l\'&eacute;chelonnement des frais sous la forme {somme de la facture}={frais nets};{somme de la facture}={frais nets} ;. Ce bar&egrave;me est appliqu&eacute; au total de la facture si le type de taxe "Bar&egrave;me" est activ&eacute;.');
+
   define($prefix.'FEE_TAX_CLASS_TITLE','Classe d\'imp&ocirc;t');
   define($prefix.'FEE_TAX_CLASS_DESC','Choisissez une classe d\'imp&ocirc;t pour les frais');
 

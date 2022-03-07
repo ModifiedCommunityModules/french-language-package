@@ -6,13 +6,19 @@ define('TABLE_HEADING_STATISTICS', 'Affichages / Clics');
 define('TABLE_HEADING_STATUS', 'Statut');
 define('TABLE_HEADING_ACTION', 'Action');
 define('TABLE_HEADING_LANGUAGE', 'Langue');
+define('TABLE_HEADING_SORT', 'Triage');
+define('TABLE_HEADING_IMAGE', 'Image');
 define('TEXT_BANNERS_TITLE', 'Titre de la banni&egrave;re:');
 define('TEXT_BANNERS_URL', 'URL de la banni&egrave;re:');
 define('TEXT_BANNERS_URL_NOTE', 'URL cible lors du clic sur la banni&egrave;re.'); 
+define('TEXT_BANNERS_REDIRECT', 'Lien direct:'); 
+define('TEXT_BANNERS_REDIRECT_NOTE', 'La banni&egrave;re sera li&eacute;e directement &agrave; l\'URL de la banni&egrave;re donn&eacute;e et non en utilisant "redirect.php?action=banner&goto=xxx".<br /><strong>CAUTION:</strong>"Affichages / Clics" ne peuvent plus &ecirc;tre compt&eacute;s si le "Direct Linking" est activ&eacute; !');
+
 define('TEXT_BANNERS_GROUP', 'Groupe de banni&egrave;res:');
 define('TEXT_BANNERS_NEW_GROUP', 'Choisissez un groupe de banni&egrave;res existant (s\'il existe) ou entrez un nouveau groupe de banni&egrave;res ci-dessous.');
 define('TEXT_BANNERS_NEW_GROUP_NOTE', 'Pour afficher une banni&egrave;re dans le mod&egrave;le, le mod&egrave;le doit &ecirc;tre &eacute;tendu<br/>Exemple : Banner Group banner , la banni&egrave;re peut &ecirc;tre affich&eacute;e dans le mod&egrave;le dans l\'index.html avec ${BANNER}');
 define('TEXT_BANNERS_IMAGE', 'Image:');
+define('TEXT_BANNERS_IMAGE_MOBILE', 'L\'image mobile:'); 
 define('TEXT_BANNERS_IMAGE_LOCAL', 'Choisissez l\'image souhait&eacute;e en cliquant sur le bouton "Parcourir" ou choisissez une banni&egrave;re existante ci-dessous.<br /><strong>Allocations autoris&eacute;es:</strong> jpg, jpeg, jpe, gif, png, bmp, tiff, tif, bmp, swf, cab');
 define('TEXT_BANNERS_IMAGE_TARGET', 'Cible de l\'image (Enregistrer vers):');
 define('TEXT_BANNERS_HTML_TEXT', 'Texte HTML:');
@@ -34,6 +40,8 @@ define('TEXT_BANNERS_DATA', 'D<br />O<br />N<br />N<br />&Eacute;<br />E<br />S'
 define('TEXT_BANNERS_LAST_3_DAYS', 'Les 3 derniers jours');
 define('TEXT_BANNERS_BANNER_VIEWS', 'Banner Views');
 define('TEXT_BANNERS_BANNER_CLICKS', 'Clics de banni&egrave;re');
+define('TEXT_BANNERS_SORT', 'Triage:');
+define('TEXT_BANNERS_SORT_NOTE', 'La commande ne concerne que les curseurs dynamiques et non les banni&egrave;res statiques.');
 define('TEXT_INFO_DELETE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer cette banni&egrave;re?');
 define('TEXT_INFO_DELETE_IMAGE', 'Supprimer l\'image de la banni&egrave;re');
 define('SUCCESS_BANNER_INSERTED', 'Le succ&egrave;s : La banni&egrave;re a &eacute;t&eacute; ins&eacute;r&eacute;e.');

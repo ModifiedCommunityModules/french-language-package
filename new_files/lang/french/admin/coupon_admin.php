@@ -65,6 +65,7 @@ define('COUPON_CATEGORIES_HELP', 'Une liste s&eacute;par&eacute;e par des virgul
 define('COUPON_CUSTOMERS_HELP', 'Choisissez les groupes de clients valides pour ce coupon.');
 define('COUPON_ID', 'cID');
 define('BUTTON_DELETE_NO_CONFIRM', 'Supprimer sans confirmation');
+define('TEXT_NO_RESTRICTION', 'aucune restriction');
 define('TEXT_NONE', 'aucune restriction');
 define('TEXT_COUPON_DELETE', 'Supprimer');
 define('TEXT_COUPON_STATUS', 'Statut');

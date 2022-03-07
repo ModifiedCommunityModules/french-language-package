@@ -45,4 +45,6 @@ define('MODULE_PAYMENT_MCP_PREPAY_ALLOWED_DESC','N\'autoriser que les commandes 
 define('MODULE_PAYMENT_MCP_PREPAY_COMMENT_INIT','Pending Payment. Expires on %s');
 define('MODULE_PAYMENT_MCP_PREPAY_COMMENT_PAYIN','Paid in %s %s');
 define('MODULE_PAYMENT_MCP_PREPAY_COMMENT_EXPIRED','No deposit');
+
+define('MODULE_PAYMENT_MCP_SERVICE_TRANSACTION_CANCELLED','La commande a &eacute;t&eacute; annul&eacute;e');
 ?>

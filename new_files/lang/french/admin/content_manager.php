@@ -1,5 +1,5 @@
 <?php
- define('HEADING_TITLE','Gestionnaire de contenu');
+ defined('HEADING_TITLE') OR define('HEADING_TITLE','Gestionnaire de contenu');
  define('HEADING_CONTENT','Site');
  define('HEADING_PRODUCTS_CONTENT','Contenu des produits');
  define('HEADING_CONTENT_MANAGER_CONTENT','Contenu du site');
@@ -23,10 +23,10 @@
  define('TABLE_HEADING_CONTENT_HITS','Consult&eacute; &agrave; l\'adresse');
  define('TABLE_HEADING_CONTENT_GROUP','coID');
  define('TABLE_HEADING_CONTENT_SORT','Ordre de tri');
- define('TEXT_YES','Oui');
- define('TEXT_NO','Non');
+ defined('TEXT_YES') OR define('TEXT_YES','Oui');
+ defined('TEXT_NO') OR define('TEXT_NO','Non');
  define('TABLE_HEADING_CONTENT_ACTION','Action');
- define('TEXT_DELETE','Supprimer');
+ defined('TEXT_DELETE') OR define('TEXT_DELETE','Supprimer');
  define('TEXT_EDIT','Edit');
  define('TEXT_PREVIEW','Aper&ccedil;u');
  define('CONFIRM_DELETE','Supprimer le contenu?');
@@ -43,7 +43,7 @@
  define('TEXT_UPLOAD_FILE_LOCAL','(du syst&egrave;me local)');
  define('TEXT_CHOOSE_FILE','Choisissez un fichier:');
  define('TEXT_CHOOSE_FILE_DESC','Vous pouvez &eacute;galement choisir un dossier existant dans la liste.');
- define('TEXT_NO_FILE','Supprimer la s&eacute;lection');
+ defined('TEXT_NO_FILE') OR define('TEXT_NO_FILE','Supprimer la s&eacute;lection');
  define('TEXT_CHOOSE_FILE_SERVER','(Si vous avez d&eacute;j&agrave; t&eacute;l&eacute;charg&eacute; vos fichiers via FTP vers un <i>(m&eacute;dia / contenu)</i>, vous pouvez s&eacute;lectionner le fichier ici.');
  define('TEXT_CURRENT_FILE','Dossier en cours:');
  define('TEXT_FILE_DESCRIPTION','<b>Info:</b><br />Vous avez &eacute;galement la possibilit&eacute; d\'inclure un fichier <b>.html</b> ou <b>.htm</b> comme contenu..<br />Si vous s&eacute;lectionnez ou t&eacute;l&eacute;chargez un fichier, vous avez la possibilit&eacute; de cr&eacute;er du texte suppl&eacute;mentaire dans la zone de texte.<br />Il appara&icirc;tra alors avant le texte du fichier t&eacute;l&eacute;charg&eacute;.<br />Si vous ne voulez pas de texte suppl&eacute;mentaire, veuillez laisser la zone de texte vide.');
@@ -55,7 +55,7 @@
  define('TEXT_PARENT_DESCRIPTION','Attribuer &agrave; ce document comme sous-contenu');
  define('TEXT_PRODUCT','Produit:');
  define('TEXT_LINK','Lien:');
- define('TEXT_SORT_ORDER','Trier:'); 
+ defined('TEXT_SORT_ORDER') OR define('TEXT_SORT_ORDER','Trier:'); 
  define('TEXT_GROUP','coID');
  define('TEXT_GROUP_DESC','Avec cette identification, vous pouvez relier d\'autres sujets similaires dans des langues diff&eacute;rentes.');
  define('TEXT_CONTENT_DESCRIPTION','Avec ce gestionnaire de contenu, vous pouvez ajouter n\'importe quel type de fichier &agrave; un produit, comme des fiches techniques, des d&eacute;tails de produits, des vid&eacute;os. Ces &eacute;l&eacute;ments seront affich&eacute;s sur la page de d&eacute;tail des produits.<br /><br />');
@@ -75,6 +75,6 @@
  define('TEXT_STATUS_ACTIVE', 'Statut actif:'); 	 
  define('TEXT_STATUS_ACTIVE_DESCRIPTION', 'Activer le contenu?');
  define('TEXT_CONTENT_DOUBLE_GROUP_INDEX', 'Dupliquer l\'index des groupes de contenu ! Veuillez sauvegarder &agrave; nouveau. Le probl&egrave;me est ainsi automatiquement corrig&eacute;!');
- define('TEXT_CHARACTERS','Signes');
+ defined('TEXT_CHARACTERS') OR define('TEXT_CHARACTERS','Signes');
  define('TEXT_KEEP_FILENAME', 'Conserver le nom du fichier:');
 ?>

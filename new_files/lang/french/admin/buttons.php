@@ -8,7 +8,7 @@ define('BUTTON_NEW_PRODUCTS', 'Nouveau produit');
 define('BUTTON_COPY', 'Copie');
 define('BUTTON_BACK', 'Retour');
 define('BUTTON_CANCEL', 'Annuler');
-define('BUTTON_EDIT', 'Edit');
+define('BUTTON_EDIT', 'Modifier');
 define('BUTTON_DELETE', 'Supprimer');
 define('BUTTON_MOVE', 'D&eacute;placement');
 define('BUTTON_SAVE', 'Sauvegarder');

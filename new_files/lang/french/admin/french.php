@@ -30,6 +30,7 @@ define('HEADER_TITLE_ADMINISTRATION', 'Administration');
 // text for gender
 define('MALE', 'M.');
 define('FEMALE', 'Mme /Mme.');
+define('DIVERSE', 'Diversit&eacute;');
 // text for date of birth example
 define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 // configuration box text in includes/boxes/configuration.php
@@ -45,6 +46,7 @@ define('BOX_HEADING_LOCALIZATION', 'Langues/Devises');
 define('BOX_HEADING_TEMPLATES','Mod&egrave;les');
 define('BOX_HEADING_LOCATION_AND_TAXES', 'Lieu/taxe');
 define('BOX_HEADING_CATALOG', 'Catalogue');
+define('BOX_MODULE_NEWSLETTER','Bulletin d\'information');
 define('BOX_CONTENT','Gestionnaire de contenu');
 define('TEXT_ALLOWED', 'Autorisation');
 define('TEXT_ACCESS', 'Surface utilisable');
@@ -114,7 +116,6 @@ define('BOX_CURRENCIES', 'Monnaies');
 define('BOX_LANGUAGES', 'Langues');
 define('BOX_ORDERS_STATUS', '&eacute;tat de la commande');
 define('BOX_ATTRIBUTES_MANAGER','Gestionnaire des attributs');
-define('BOX_MODULE_NEWSLETTER','Bulletin d\'information');
 define('BOX_SHIPPING_STATUS','Statut de l\'exp&eacute;dition');
 define('BOX_SALES_REPORT','Rapport sur les ventes');
 define('BOX_MODULE_EXPORT','Modules d\'exportation');
@@ -151,6 +152,8 @@ define('BOX_NEWSLETTER_RECIPIENTS', 'Destinataires du bulletin d\'information');
 define('BOX_DSGVO_EXPORT', 'PIBR Exportation');
 define('BOX_SUPPORT', 'Soutien');
 define('BOX_CACHING', 'Caching');
+define('BOX_COOKIE_CONSENT', 'Consentement aux cookies');
+define('BOX_SEMKNOX', 'Recherche de site 360 Recherche de produits');
 define('TXT_GROUPS','<b>Groupes</b>:');
 define('TXT_SYSTEM','Syst&egrave;me');
 define('TXT_CUSTOMERS','Clients/commandes');
@@ -218,6 +221,7 @@ define('ENTRY_CITY_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_CITY_MI
 define('ENTRY_STATE', '&Eacute;tat:');
 define('ENTRY_STATE_ERROR', '&nbsp;<span class="errorText">requis</font></small>');
 define('ENTRY_COUNTRY', 'Pays:');
+define('ENTRY_COUNTRY_ERROR', 'Veuillez choisir votre pays.');
 define('ENTRY_TELEPHONE_NUMBER', 'Num&eacute;ro de t&eacute;l&eacute;phone:');
 define('ENTRY_TELEPHONE_NUMBER_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tanks</span>');
 define('ENTRY_FAX_NUMBER', 'Num&eacute;ro de fax:');
@@ -236,6 +240,7 @@ define('SAVE_ENTRY','Enregistrer les modifications?');
 define('TEXT_CHOOSE_INFO_TEMPLATE','Mod&egrave;le pour les d&eacute;tails du produit');
 define('TEXT_CHOOSE_OPTIONS_TEMPLATE','Mod&egrave;le pour les options de produits');
 define('TEXT_SELECT','-- Veuillez s&eacute;lectionner --');
+define('PULL_DOWN_DEFAULT', 'Veuillez choisir');
 // BOF - Tomcraft - 2009-06-10 - added some missing alternative text on admin icons
 // Icons
 define('ICON_ARROW_RIGHT','marqu&eacute;');
@@ -267,6 +272,7 @@ define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Affichage de <b>%d</b> &agrave; <b>
 define('TEXT_DISPLAY_NUMBER_OF_LANGUAGES', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> Langues)');
 define('TEXT_DISPLAY_NUMBER_OF_MANUFACTURERS', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> Fabricants)');
 define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> Bulletins d\'information)');
+define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS_RECIPIENTS', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> Destinataires du bulletin d\'information)');
 define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> Commandes)');
 define('TEXT_DISPLAY_NUMBER_OF_ORDERS_STATUS', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> Statut des commandes)');
 define('TEXT_DISPLAY_NUMBER_OF_XSELL_GROUP', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> Groupes de vente crois&eacute;e)');

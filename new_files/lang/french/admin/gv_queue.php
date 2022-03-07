@@ -13,4 +13,6 @@ define('TEXT_REDEEM_COUPON_MESSAGE_AMOUNT', 'Le ch&egrave;que cadeau que vous av
 define('TEXT_REDEEM_COUPON_MESSAGE_BODY', '');
 define('TEXT_REDEEM_COUPON_MESSAGE_FOOTER', '');
 define('TEXT_REDEEM_COUPON_SUBJECT', 'Achat de ch&egrave;ques-cadeaux');
+define('TEXT_INFO_DELETE_INTRO', 'Supprimer ce ch&egrave;que-cadeau?');
+define('TEXT_INFO_REDEEM_INTRO', 'Utiliser ce ch&egrave;que-cadeau?');
 ?>

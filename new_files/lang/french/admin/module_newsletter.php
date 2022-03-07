@@ -25,4 +25,5 @@ define('INFO_NEWSLETTER_SEND', '%d lettres d\'information envoy&eacute;es');
 define('INFO_NEWSLETTER_LEFT', '%d lettres d\'information restantes');
 // EOF - DokuMan - 2011-12-12 - Texts for Newsletter E-Mail send status
 define('TEXT_NEWSLETTER_INFO', '<strong>ATTENTION:</strong> Pour l\'envoi de lettres d\'information, l\'utilisation de programmes externes est recommand&eacute;e!<br /><br />Si le module Newsletter Shop est utilis&eacute;, il faut demander au fournisseur combien de courriels peuvent &ecirc;tre envoy&eacute;s en un temps donn&eacute; au total.<br />Avec de nombreux fournisseurs, il y a des restrictions ou l\'envoi n\'est autoris&eacute; que par des serveurs de messagerie sp&eacute;ciaux.<br /><br />Par d&eacute;faut, la signature est jointe automatiquement. Si vous souhaitez formater la signature autrement que selon le format standard, ajoutez le code [NOSIGNATUR] (y compris les crochets) &agrave; la fin de votre lettre d\'information.');
+define('TEXT_INFO_SENDING', 'Veuillez patienter, la lettre d\'information est en cours d\'envoi. Cela peut prendre un certain temps.');
 ?>

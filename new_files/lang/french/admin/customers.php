@@ -6,6 +6,7 @@ define('TABLE_HEADING_FIRSTNAME', 'Pr&eacute;nom');
 define('TABLE_HEADING_LASTNAME', 'Nom de famille');
 define('TABLE_HEADING_ACCOUNT_CREATED', 'cr&eacute;&eacute;');
 define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_EDIT','Modifier');
 define('TEXT_DATE_ACCOUNT_CREATED', 'Compte cr&eacute;&eacute;:');
 define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Derni&egrave;re modification:');
 define('TEXT_INFO_DATE_LAST_LOGON', 'Derni&egrave;re connexion:');
@@ -49,4 +50,13 @@ define('WARNING_CUSTOMER_ALREADY_EXISTS', 'Le groupe de clients ne peut pas &eci
 define('TEXT_INFO_HEADING_STATUS_NEW_ORDER','Nouvel ordre');
 define('TEXT_INFO_PAYMENT','Paiement:');
 define('TEXT_INFO_SHIPPING','Exp&eacute;dition:');
+
+define('TEXT_INFO_NEWSLETTER_AT_REGISTRATION', 'Bulletin d\'information &agrave; l\'inscription:');
+define('TEXT_INFO_NEWSLETTER_STATUS', 'Inscription &agrave; la newsletter:');
+
+define('TEXT_ACTIVE_ELEMENT','&Eacute;l&eacute;ment actif');
+define('TEXT_MARKED_ELEMENTS','&Eacute;l&eacute;ments marqu&eacute;s');
+define('TEXT_INFO_HEADING_DELETE_ELEMENTS', 'Supprimer les &eacute;l&eacute;ments');
+define('TEXT_INFO_HEADING_STATUS_ELEMENTS', '&Eacute;l&eacute;ments du groupe de clients');
+define('TEXT_DELETE_REVIEWS_ELEMENTS', 'Supprimer les commentaires');
 ?>
