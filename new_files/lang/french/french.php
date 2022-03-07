@@ -52,6 +52,7 @@ define('LANGUAGE_CURRENCY','EUR');
 
 define('MALE','Monsieur');
 define('FEMALE','Madame');
+define('DIVERSE', 'Diverse');
 
 /*
  * 
@@ -316,6 +317,7 @@ define('JS_PRICE_TO_MUST_BE_NUM','* Prix jusqu\'&agrave;, doit &ecirc;tre un chi
 define('JS_PRICE_TO_LESS_THAN_PRICE_FROM','* le prix doit &ecirc;tre plus important  ou &eacute;gal au prix jusqu\'&agrave;.\n');
 define('JS_INVALID_KEYWORDS','* Mot clef non reconnu\n');
 define('TEXT_LOGIN_ERROR','<b>Erreur: </b> Vos adresses mail, et/ou le mot de passe ne correspondent pas.' );
+define('TEXT_RELOGIN_NEEDED', 'Veuillez vous reconnecter.');
 // define('TEXT_NO_EMAIL_ADDRESS_FOUND','<span class="color_error_message"><b>Attention:</b></span> L\'adresse email renseign&eacute;e n\'est pas registr&eacute;e. Veuillez r&eacute;essayer.'); // Not used anymore as we do not give a hint that an e-mail address is or is not in the database!
 define('TEXT_PASSWORD_SENT','un nouveau mot de passe vous a &eacute;t&eacute; envoy&eacute; par mail.');
 define('TEXT_PRODUCT_NOT_FOUND','Article non trouv&eacute;!');
@@ -458,6 +460,7 @@ define('TEXT_LINK_TITLE_INFORMATION', 'Informations');
 define('TEXT_CLOSE_WINDOW','Fermer la fen&ecirc;tre [x]');
 define('TEXT_COUPON_HELP_HEADER','Votre avoir a &eacute;t&eacute; comptabilis&eacute; avec succ&egrave;s.');
 define('TEXT_COUPON_HELP_NAME','<br /><br />D&eacute;signation de votre avoir: %s');
+define('TEXT_COUPON_HELP_SPECIALS', '<br /><br />Votre coupon ne peut pas &ecirc;tre utilis&eacute; sur les offres sp&eacute;ciales.');
 define('TEXT_COUPON_HELP_FIXED','<br /><br />Votre avoir est d\'un montant de: %s');
 define('TEXT_COUPON_HELP_MINORDER','<br /><br />Le minimum de commande este de: %s');
 define('TEXT_COUPON_HELP_FREESHIP','<br /><br />Bon pour des frais de port gratuits');
@@ -555,6 +558,7 @@ define('GV_NO_PAYMENT_INFO','<div class="infomessage">Vous pouvez payer compl&ea
 define('GV_ADD_PAYMENT_INFO','<div class="errormessage">Votre solde est insuffisant pour payer l\'ordre compl&egrave;tement. S\'il vous pla&icirc;t s&eacute;lectionner un paiement suppl&eacute;mentaire!</div>');
 
 define('_SHIPPING_FREE','livraison gratuite');
+define('TEXT_INFO_FREE_SHIPPING_COUPON', 'Les frais d\'exp&eacute;dition sont couverts par votre coupon.');
 
 define('TEXT_CONTENT_NOT_FOUND','Cette page n\'A pas &eacute;t&eacute; trouv&eacute;!');
 define('TEXT_SITE_NOT_FOUND','Cette page n\'A pas &eacute;t&eacute; trouv&eacute;!');

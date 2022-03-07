@@ -43,4 +43,13 @@ define('TEXT_IMPORT_UTF', 'Restaurer la base de donn&eacute;es UTF-8');
 define('TEXT_REMOVE_COLLATE', "<b>Sans encodage \"COLLATE\" et \"DEFAULT CHARSET\"</b><br> - Les instructions d'encodage ne sont pas ins&eacute;r&eacute;es. Utile lors de la migration vers une autre base de donn&eacute;es d'encodage.");
 //TEXT_REMOVE_ENGINE
 define('TEXT_REMOVE_ENGINE', "<b>Sans moteur de stockage 'ENGINE'</b><br> - Les d&eacute;clarations du moteur de stockage (MyISAM, InnoDB) ne sont pas ins&eacute;r&eacute;es.");
+
+define('TEXT_IMPORT_UTF8_NOTICE', '<b>Attention:</b> la base de donn&eacute;es est convertie en UTF-8.');
+define('TEXT_INFO_CHARSET', 'Jeu de caract&egrave;res:');
+
+define('TEXT_TABLES_BACKUP_TYPE', '<b>Sauvegarde</b><br> - Quelles tables doivent &ecirc;tre sauvegard&eacute;es?');
+define('TEXT_BACKUP_ALL', 'Toutes les tables');
+define('TEXT_BACKUP_CUSTOM', 'Tableaux s&eacute;lectionn&eacute;s');
+define('TEXT_TABLES_TO_BACKUP', '<b>Les tableaux suivants doivent &ecirc;tre sauvegard&eacute;s:</b>');
+
 ?>

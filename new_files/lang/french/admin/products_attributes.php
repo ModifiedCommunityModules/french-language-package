@@ -29,4 +29,20 @@ define('TEXT_INFO_EDIT_VALUE_INTRO', 'Veuillez apporter les modifications n&eacu
 define('TEXT_INFO_HEADING_DELETE_VALUE', 'Effacer la valeur');
 define('TEXT_INFO_DELETE_VALUE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer cette valeur?');
 define('TEXT_DISPLAY_NUMBER_OF_VALUES', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (sur <b>%d</b> valeurs)');
+define('TITLE_EDIT','Modifier les attributs ');
+define('SORT_ORDER','Ordre de tri');
+define('ATTR_MODEL','Mod&egrave;le d\'attribut');
+define('ATTR_STOCK','Stock');
+define('ATTR_WEIGHT','Poids de la valeur');
+define('ATTR_PREFIXWEIGHT','Pr&eacute;fixe de poids');
+define('ATTR_PRICE','Prix en valeur');
+define('ATTR_PREFIXPRICE','Pr&eacute;fixe du prix');
+define('DL_COUNT','Comte:');
+define('DL_EXPIRE','Expiration:');
+define('TEXT_OPTION_ID', 'ID de l\'option');
+define('TEXT_OPTION_NAME', 'Nom de l\'option');
+define('TEXT_SORTORDER', 'Triage');
+define('ATTR_EAN', 'GTIN/EAN');
+define('ATTR_SAVE_ACTIVE', 'Enregistrer les attributs du d&eacute;pliage');
+define('ATTR_VPE','Unit&eacute; d\'emballage');
 ?>

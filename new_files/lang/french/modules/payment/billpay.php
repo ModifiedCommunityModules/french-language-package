@@ -39,8 +39,21 @@ define('MODULE_PAYMENT_BILLPAY_LOGPATH_TITLE', 'Parcours d\'exploitation foresti
 define('MODULE_PAYMENT_BILLPAY_LOGPATH_DESC', '');
 define('MODULE_PAYMENT_BILLPAY_GS_HTTP_X_TITLE', 'X_FORWARDED_FOR permettre');
 define('MODULE_PAYMENT_BILLPAY_GS_HTTP_X_DESC', 'Activez cette fonction si votre magasin utilise le syst&egrave;me Cloud');
+define('MODULE_PAYMENT_BILLPAY_HTTP_X_TITLE', 'X_FORWARDED_FOR permettre');
+define('MODULE_PAYMENT_BILLPAY_HTTP_X_DESC', 'Activez cette fonction si votre magasin utilise le syst&egrave;me en nuage.');
 // Payment selection texts
 define('MODULE_PAYMENT_BILLPAY_TEXT_BIRTHDATE', 'Date de naissance');
+define('MODULE_PAYMENT_BILLPAY_TEXT_PHONE', 'Num&eacute;ro de t&eacute;l&eacute;phone');
+define('MODULE_PAYMENT_BILLPAY_TEXT_EULA_CHECK', 'Je suis d\'accord avec le transfert des donn&eacute;es n&eacute;cessaires au traitement de l\'achat sur facture et &agrave; la v&eacute;rification de l\'identit&eacute; et de la solvabilit&eacute; &agrave; l\'adresse suivante <a href="https://www.billpay.de/endkunden/" target="blank">BillPay GmbH</a>. Les <a href="%s" target="_blank">r&egrave;gles de protection des donn&eacute;es</a> de BillPay s\'appliquent.');
+define('MODULE_PAYMENT_BILLPAY_TEXT_EULA_CHECK_CH', '<label for="billpay_eula">Je confirme ici <a href="https://www.billpay.de/kunden/agb-ch" target="_blank">l\'AGB</a> et les <a href="https://www.billpay.de/kunden/agb-ch#datenschutz" target="_blank">des donn&eacute;es</a> de BillPay s\'appliquent</label> <br />');
+
+define('MODULE_PAYMENT_BILLPAY_TEXT_EULA_CHECK_SEPA', "J'accepte que les donn&eacute;es n&eacute;cessaires au traitement du paiement et &agrave; la v&eacute;rification de l'identit&eacute; et de la solvabilit&eacute; soient transf&eacute;r&eacute;es &agrave; l'adresse suivante <a href='https://www.billpay.de/endkunden/' target='_blank'>BillPay GmbH</a>. <a href='%s' target='_blank'>Le r&egrave;glement sur la protection</a> des donn&eacute;es de BillPay.<br/><br/> Je donne &agrave; BillPay un mandat de pr&eacute;l&egrave;vement SEPA (<a href='#' class='bpy-btn-details'>details</a>) pour l'encaissement des paiements dus et je charge mon &eacute;tablissement financier d'encaisser les pr&eacute;l&egrave;vements.");
+define('MODULE_PAYMENT_BILLPAY_TEXT_EULA_CHECK_SEPA_AT', "J'accepte que les donn&eacute;es n&eacute;cessaires au traitement du paiement et &agrave; la v&eacute;rification de l'identit&eacute; et de la solvabilit&eacute; soient transf&eacute;r&eacute;es au <a href='https://www.billpay.de/endkunden/' target='_blank'>BillPay GmbH</a>. <a href='%s' target='_blank'>r&egrave;glement sur la protection des donn&eacute;es</a> de BillPay.<br/><br/>  J'accorde &agrave; BillPay et aux <a href='https://www.privatbank1891.com/' target='_blank'>net-m privatbank 1891 AG</a> un mandat de pr&eacute;l&egrave;vement SEPA (<a href='#' class='bpy-btn-details'>details</a>) pour le recouvrement des impay&eacute;s et donner instruction &agrave; mon &eacute;tablissement financier de recouvrer les pr&eacute;l&egrave;vements automatiques.");
+
+define('MODULE_PAYMENT_BILLPAY_UTF8_ENCODE_TITLE', 'Activer l\'encodage UTF8');
+define('MODULE_PAYMENT_BILLPAY_UTF8_ENCODE_DESC', 'D&eacute;sactivez cette option si vous utilisez l\'encodage UTF-8 dans votre boutique en ligne.');
+
+
 define('MODULE_PAYMENT_BILLPAY_TEXT_ENTER_BIRTHDATE', 'Veuillez indiquer votre date de naissance dans la page du compte.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ENTER_GENDER', 'Veuillez indiquer votre sexe dans la page du compte.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ENTER_TITLE', 'Veuillez saisir votre titre');
@@ -63,6 +76,7 @@ define('JS_BILLPAY_CODE', '* Veuillez indiquer le code du compte bancaire.\n\n')
 define('JS_BILLPAY_NUMBER', '* Veuillez indiquer le num&eacute;ro de compte bancaire.\n\n');
 define('JS_BILLPAY_NAME', '* Veuillez indiquer le nom du titulaire du compte bancaire s&eacute;lectionn&eacute;.\n\n');
 define('JS_BILLPAY_PHONE', '* Veuillez indiquer votre num&eacute;ro de t&eacute;l&eacute;phone.\n\n');
+define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_DOB_UNDER', 'Vous devez &ecirc;tre &acirc;g&eacute; de plus de 18 ans pour utiliser BillPay..');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_EULA', '* Veuillez accepter le CLUF pour continuer.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_DOB', 'Vous avez saisi une date de naissance incorrecte!');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_DEFAULT', 'Erreur interne, veuillez choisir un autre mode de paiement.');
@@ -70,6 +84,8 @@ define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_SHORT', 'Erreur interne, veuillez choi
 define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_CREATED_COMMENT', 'La facture a &eacute;t&eacute; cr&eacute;&eacute;e.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_CANCEL_COMMENT', 'La commande a &eacute;t&eacute; annul&eacute;e par BillPay.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_DUEDATE', 'Le paiement ne peut pas &ecirc;tre commenc&eacute; parce que la date d\'&eacute;ch&eacute;ance est vide.');
+define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_NO_RATEPLAN', 'Veuillez demander un plan de paiement pour le nombre de mensualit&eacute;s choisi.');
+
 define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_CODE', '* Veuillez corriger le code du compte bancaire.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_NUMBER', '* Veuillez corriger le num&eacute;ro de compte bancaire.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_ERROR_NAME', '* Veuillez corriger le nom du titulaire du compte bancaire s&eacute;lectionn&eacute;.');
@@ -95,6 +111,7 @@ define('MODULE_PAYMENT_BILLPAY_B2BCONFIG_DESC', 'Vous souhaitez proposer un mode
 define('MODULE_PAYMENT_BILLPAY_B2B_COMPANY_NAME_TEXT', 'Nom de la soci&eacute;t&eacute;');
 define('MODULE_PAYMENT_BILLPAY_B2B_COMPANY_LEGAL_FORM_TEXT', 'Forme juridique');
 define('MODULE_PAYMENT_BILLPAY_B2B_COMPANY_LEGAL_FORM_SELECT_HTML', "");
+define('MODULE_PAYMENT_BILLPAY_B2B_LEGALFORM_VALUES', 'ag:AG (soci&eacute;t&eacute; anonyme)|eg:eG (coop&eacute;rative enregistr&eacute;e)|ek:EK (commer&ccedil;ant enregistr&eacute;)|ev:e.V. (|freelancer:profession lib&eacute;rale/petite entreprise/agent commercial|gbr:GbR/BGB (soci&eacute;t&eacute; de droit civil)|gmbh:GmbH (soci&eacute;t&eacute; &agrave; responsabilit&eacute; limit&eacute;e)|gmbh_ig:GmbH in Gr&uml;ndung|gmbh_co_kg:GmbH &amp ; Co. KG|kg:KG (soci&eacute;t&eacute; en commandite)|ltd:Limited|ltd_co_kg:Limited &amp ; Co. KG|ohg:OHG (soci&eacute;t&eacute; en nom collectif)|public_inst:&Ouml;ffentliche Einrichtung|misc_capital:Autre soci&eacute;t&eacute; de capitaux|misc:Autre soci&eacute;t&eacute; de personnes|foundation:Stiftung|ug:UG (Unternehmensgesellschaft haft&auml;nkt)');
 define('MODULE_PAYMENT_BILLPAY_B2B_CHOOSE_CLIENT_TEXT', 'Typical Customer');
 define('MODULE_PAYMENT_BILLPAY_B2B_PRIVATE_CLIENT_TEXT', 'Private client');
 define('MODULE_PAYMENT_BILLPAY_B2B_BUSINESS_CLIENT_TEXT', 'Entreprise cliente');
@@ -162,8 +179,12 @@ define('MODULE_PAYMENT_BILLPAY_STATUS_CANCELLED_DESC', 'BillPay - annul&eacute;'
 define('MODULE_PAYMENT_BILLPAY_STATUS_ERROR_DESC', 'BillPay - En raison d\'une erreur, cet ordre n&eacute;cessite une correction manuelle. Veuillez contacter le support de BillPay');
 define('MODULE_PAYMENT_BILLPAY_SALUTATION_MALE', MODULE_PAYMENT_BILLPAY_TEXT_MR);
 define('MODULE_PAYMENT_BILLPAY_SALUTATION_FEMALE', MODULE_PAYMENT_BILLPAY_TEXT_MRS);
-define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_INFO',              'Veuillez transf&eacute;rer le montant total avec le num&eacute;ro de transaction BillPay (%1$s) dans le d&eacute;lai de paiement de %2$02s.%3$02s.%4$04s sur le compte suivant:');
-define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_INFO_NO_DUEDATE',   'Veuillez transf&eacute;rer le montant total avec le num&eacute;ro de transaction BillPay (%1$s) dans le d&eacute;lai de paiement indiqu&eacute; sur la facture sur le compte suivant:');
+define('MODULE_PAYMENT_BILLPAY_TEXT_SEPA_INFORMATION', 'Le num&eacute;ro d\'identification du cr&eacute;ancier de BillPay est DE19ZZ00000237180. Le num&eacute;ro de r&eacute;f&eacute;rence du mandat me sera communiqu&eacute; ult&eacute;rieurement par e-mail. Remarque : je peux demander le remboursement du montant d&eacute;bit&eacute; dans un d&eacute;lai de huit semaines &agrave; compter de la date de d&eacute;bit. Les conditions convenues avec mon &eacute;tablissement financier s\'appliquent. Veuillez noter que la cr&eacute;ance due reste valable m&ecirc;me dans le cas d\'un retour de note de d&eacute;bit. Vous trouverez de plus amples informations sur 
+<a href="https://www.billpay.de/sepa" target="_blank">https://www.billpay.de/sepa</a>.');
+define('MODULE_PAYMENT_BILLPAY_TEXT_SEPA_INFORMATION_AT', "Le num&eacute;ro d'identification du cr&eacute;ancier de BillPay est DE19ZZZ00000237180, le num&eacute;ro d'identification du cr&eacute;ancier de net-m privatbank AG est DE62ZZZ00000009232. Le num&eacute;ro de r&eacute;f&eacute;rence du mandat me sera communiqu&eacute; ult&eacute;rieurement par e-mail avec un mod&egrave;le de mandat &eacute;crit. Je signerai &eacute;galement ce mandat &eacute;crit et l'enverrai &agrave; BillPay. Remarque : je peux demander le remboursement du montant d&eacute;bit&eacute; dans un d&eacute;lai de huit semaines &agrave; compter de la date de d&eacute;bit. Les conditions convenues avec mon &eacute;tablissement financier s'appliquent. Veuillez noter que la cr&eacute;ance due reste valable m&ecirc;me dans le cas d'un retour de note de d&eacute;bit. Vous trouverez de plus amples informations sur <a href='https://www.billpay.de/sepa' target='_blank'>https://www.billpay.de/sepa</a>.");
+    
+define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_INFO', 'Veuillez transf&eacute;rer le montant total avec le num&eacute;ro de transaction BillPay (%1$s) dans le d&eacute;lai de paiement de %2$02s.%3$02s.%4$04s sur le compte suivant:');
+define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_INFO_NO_DUEDATE', 'Veuillez transf&eacute;rer le montant total avec le num&eacute;ro de transaction BillPay (%1$s) dans le d&eacute;lai de paiement indiqu&eacute; sur la facture sur le compte suivant:');
 define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_INFO1', 'Vous avez choisi d\'acheter sur compte avec BillPay. Veuillez transf&eacute;rer le montant total par  ');
 define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_INFO2', ' sur le compte suivant: ');
 define('MODULE_PAYMENT_BILLPAY_TEXT_INVOICE_INFO3', 'Date d\'&eacute;ch&eacute;ance que vous recevez avec la facture');
@@ -173,6 +194,8 @@ define('MODULE_PAYMENT_BILLPAY_TEXT_FEE_INFO2', ' recueilli');
 // Plugin 1.7
 define('MODULE_PAYMENT_BILLPAY_THANK_YOU_TEXT', 'Merci d\'avoir choisi la facture BillPay lors de votre achat.');
 define('MODULE_PAYMENT_BILLPAY_PAY_UNTIL_TEXT', 'Veuillez transf&eacute;rer %1$s %2$s par %3$s, en indiquant la r&eacute;f&eacute;rence, sur le compte suivant:');
+define('MODULE_PAYMENT_BILLPAY_PAY_UNTIL_TEXT_NO_DUE_DATE', 'Veuillez virer le montant de %1$s %2$s dans le d&eacute;lai de paiement en indiquant le motif de paiement sur le compte suivant.');
+
 define('MODULE_PAYMENT_BILLPAY_PAY_UNTIL_TEXT_ADD_CH', 'Les paiements au guichet de la poste entra&icirc;nent des frais suppl&eacute;mentaires. Si vous effectuez un paiement par bulletin de versement, veuillez transf&eacute;rer un %1$s %2$s suppl&eacute;mentaire.');
 define('MODULE_PAYMENT_BILLPAY_TEXT_PAYEE', 'B&eacute;n&eacute;ficiaire du paiement');
 define('MODULE_PAYMENT_BILLPAY_TEXT_PAYEE_CH', 'Succursale en Suisse (Regensdorf)');

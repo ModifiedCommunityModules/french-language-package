@@ -47,4 +47,7 @@
   define('MODULE_ORDER_TOTAL_GV_TAX_CLASS_DESC', 'La TVA suivante si vous utilisez le bon comme une note de cr&eacute;dit.');
   define('MODULE_ORDER_TOTAL_GV_CREDIT_TAX_TITLE', 'Le solde cr&eacute;diteur comprend la TVA.');
   define('MODULE_ORDER_TOTAL_GV_CREDIT_TAX_DESC', 'Cr&eacute;dit de la TVA sur la valeur du bon');
+    define('MODULE_ORDER_TOTAL_GV_UNALLOWED_PAYMENT_TITLE', 'Modules de paiement non autoris&eacute;s');
+  define('MODULE_ORDER_TOTAL_GV_UNALLOWED_PAYMENT_DESC', '<strong>DISALLOWED</strong> modules de paiement pour les produits cadeaux.');
+
 ?>

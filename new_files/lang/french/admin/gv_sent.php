@@ -14,4 +14,5 @@ define('TEXT_INFO_DATE_REDEEMED', 'Date de rachat:');
 define('TEXT_INFO_IP_ADDRESS', 'Adresse IP:');
 define('TEXT_INFO_CUSTOMERS_ID', 'Identifiant du client:');
 define('TEXT_INFO_NOT_REDEEMED', 'Non rachet&eacute;');
+define('TEXT_INFO_DELETE_INTRO', 'Supprimer ce ch&egrave;que-cadeau?');
 ?>

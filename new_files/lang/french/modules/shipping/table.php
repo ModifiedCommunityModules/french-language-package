@@ -2,6 +2,7 @@
 define('MODULE_SHIPPING_TABLE_TEXT_TITLE', 'Tableau Taux');
 define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', 'Tableau Taux');
 define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'La meilleure fa&ccedil;on (%01.2f kg)');
+define('MODULE_SHIPPING_TABLE_TEXT_UNITS', 'kg');
 define('MODULE_SHIPPING_TABLE_TEXT_WEIGHT', 'Poids');
 define('MODULE_SHIPPING_TABLE_TEXT_AMOUNT', 'Montant');
 define('MODULE_SHIPPING_TABLE_INVALID_ZONE', 'Pas d\'exp&eacute;dition disponible dans le pays s&eacute;lectionn&eacute;!');

@@ -15,4 +15,14 @@ define('TEXT_INFO_HEADING_NEW_COUNTRY', 'Nouveau pays');
 define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'Modifier le pays');
 define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'Supprimer le pays');
 define('TABLE_HEADING_REQUIRED_ZONES','Afficher les zones');
+
+define('TEXT_INFO_ADDRESS_FORMAT_HEADING', 'Format de l\'adresse');
+define('TEXT_INFO_FIRSTNAME', 'John');
+define('TEXT_INFO_LASTNAME', 'Doe');
+define('TEXT_INFO_COMPANY', 'Entreprise');
+define('TEXT_INFO_STREET_ADDRESS', 'Adresse de la rue 12');
+define('TEXT_INFO_SUBURB', 'Banlieue');
+define('TEXT_INFO_CITY', 'Ville');
+define('TEXT_INFO_POSTCODE', '12345');
+define('TEXT_INFO_STATE', 'BE');
 ?>

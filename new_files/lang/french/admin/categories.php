@@ -10,7 +10,7 @@ define('TABLE_HEADING_STATUS', 'Statut');
 define('TABLE_HEADING_STARTPAGE', 'TOP');
 define('TABLE_HEADING_STOCK','Stock');
 define('TABLE_HEADING_SORT','Trier');
-define('TABLE_HEADING_EDIT','Edit');
+define('TABLE_HEADING_EDIT','Modifier');
 // BOF - Tomcraft - 2010-04-07 - Added definition for products model
 define('TABLE_HEADING_PRODUCTS_MODEL','Mod&egrave;le de produits');
 // EOF - Tomcraft - 2010-04-07 - Added definition for products model
@@ -46,6 +46,10 @@ define('TEXT_EDIT_CATEGORIES_NAME', 'Nom de la cat&eacute;gorie:');
 define('TEXT_EDIT_CATEGORIES_HEADING_TITLE', 'Intitul&eacute; de la cat&eacute;gorie:');
 define('TEXT_EDIT_CATEGORIES_DESCRIPTION', 'Description de la cat&eacute;gorie:');
 define('TEXT_EDIT_CATEGORIES_IMAGE', 'Cat&eacute;gorie Image:');
+
+define('TEXT_EDIT_CATEGORIES_IMAGE_LIST', 'Liste des images de la cat&eacute;gorie:');
+define('TEXT_EDIT_CATEGORIES_IMAGE_MOBILE', 'Cat&eacute;gorie Image Mobile:');
+
 define('TEXT_EDIT_SORT_ORDER', 'Ordre de tri:');
 define('TEXT_INFO_COPY_TO_INTRO', 'Veuillez choisir une nouvelle cat&eacute;gorie dans laquelle vous souhaitez copier ce produit');
 define('TEXT_INFO_CURRENT_CATEGORIES', 'Cat&eacute;gories actuelles:');
@@ -193,4 +197,6 @@ define('ERROR_COPY_METHOD_NOT_ALLOWED', 'M&eacute;thode de copie "Lien" non auto
 define('TEXT_TAGS_COPY', 'Copier &eacute;galement les caract&eacute;ristiques du produit');
 define('TEXT_TAGS_COPY_INFO', 'Copier &eacute;galement les caract&eacute;ristiques du produit<br /> Uniquement recommand&eacute; pour une copie unique (1 article)');
 define('TEXT_PRODUCTS_LAST_MODIFIED', 'Derni&egrave;re modification:');
+define('TEXT_STOCK_UPDATE_SUCCESS', 'Stock &eacute;conomis&eacute;');
+define('TEXT_STOCK_UPDATE_ERROR', 'Stock non sauvegard&eacute;');
 ?>
