@@ -1,6 +1,7 @@
 <?php
 define('SPECIALS_TITLE', 'Sp&eacute;cial ');
 define('TEXT_SPECIALS_PRODUCT', 'Produit:');
+define('TEXT_SPECIALS_SPECIAL_PRODUCTS_PRICE', 'Prix le plus bas (30 derniers jours):');
 define('TEXT_SPECIALS_SPECIAL_PRICE', 'Prix sp&eacute;cial:');
 define('TEXT_SPECIALS_SPECIAL_QUANTITY', 'Quantit&eacute;:');  
 define('TEXT_SPECIALS_START_DATE', 'Date de d&eacute;but: <small>(AAAA-MM-JJ)</small>');
@@ -19,4 +20,6 @@ define('TEXT_CATSPECIALS_START_DATE_TT', 'Indiquez la date &agrave; partir de la
 define('TEXT_CATSPECIALS_EXPIRES_DATE_TT', 'Laissez la case <strong> date d\'expiration</strong> vide pour aucune expiration.<br>');
 define('TEXT_CATSPECIALS_SPECIAL_QUANTITY_TT', 'Vous pouvez saisir la quantit&eacute; de l\'article dans le champ <strong>Quantit&eacute;</strong> pour les produits auxquels s\'applique le prix sp&eacute;cial.<br>Vous pouvez d&eacute;cider de v&eacute;rifier ou non le stock de produits sp&eacute;ciaux sous "Configuration" -> "Options sur actions" -> "V&eacute;rifier le stock de produits sp&eacute;ciaux".');
 define('TEXT_CATSPECIALS_SPECIAL_PRICE_TT', 'Vous pouvez entrer un pourcentage &agrave; d&eacute;duire dans le champ Prix sp&eacute;cial, par exemple: <strong>20%</strong><br>Si vous entrez un nouveau prix, le s&eacute;parateur d&eacute;cimal doit &ecirc;tre un \'.\'. (point d&eacute;cimal), par exemple: <strong>49.99</strong>');
+define('TEXT_CATSPECIALS_SPECIAL_PRODUCTS_PRICE_TT', 'Indiquez le prix le plus bas des 30 derniers jours. Si vous laissez le champ vide, le prix actuel de l\'article sera utilis&eacute;..');
+
 ?>

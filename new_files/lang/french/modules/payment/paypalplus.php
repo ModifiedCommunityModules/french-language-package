@@ -1,7 +1,7 @@
 <?php
 $lang_array = array(
   'MODULE_PAYMENT_PAYPALPLUS_TEXT_TITLE' => 'PayPal Plus',
-  'MODULE_PAYMENT_PAYPALPLUS_TEXT_ADMIN_TITLE' => 'PayPal Plus avec PayPal Express',
+  'MODULE_PAYMENT_PAYPALPLUS_TEXT_ADMIN_TITLE' => 'PayPal PLUS (uniquement si le si&egrave;ge de l\'entreprise est en Allemagne)<span style="background:#dd2400;color: #fff;font-weight: bold;padding: 2px 5px;border-radius: 4px;margin: 0 0 0 5px;">ALT</span>',
   'MODULE_PAYMENT_PAYPALPLUS_TEXT_INFO' => 'Veuillez s&eacute;lectionner l\'un des modes de paiement &eacute;num&eacute;r&eacute;s ici en cliquant.',
   'MODULE_PAYMENT_PAYPALPLUS_TEXT_DESCRIPTION' => 'PayPal Plus - les quatre m&eacute;thodes de paiement les plus populaires aupr&egrave;s des acheteurs allemands : PayPal, d&eacute;bit direct, carte de cr&eacute;dit et facture.<br/>Vous pouvez trouver plus d\'informations sur PayPal Plus <a target="_blank" href="https://www.paypal.com/de/webapps/mpp/paypal-plus">ici</a>.',
   'MODULE_PAYMENT_PAYPALPLUS_ALLOWED_TITLE' => 'Zones autoris&eacute;es',

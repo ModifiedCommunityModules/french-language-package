@@ -6,6 +6,7 @@
   define('TABLE_HEADING_CUSTOMERS_STATUS', 'Statut des clients');
   define('TABLE_HEADING_STATUS', 'Statut');
   define('TABLE_HEADING_ACTION', 'Action');
+  define('TABLE_HEADING_DATE_ADDED', 'Ajout&eacute; &agrave; la liste');
   define('ENTRY_MAIL_STATUS', 'Statut:');
   define('ENTRY_SEARCH_CUSTOMER', 'Recherchez:');
   define('TXT_SUBSCRIBED', 'souscrit');

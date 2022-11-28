@@ -2,6 +2,8 @@
 define('HEADING_TITLE','Supprimer les anciennes photos de produits');
 define('LINK_INFO_TEXT', '<p>Gr&acirc;ce &agrave; cette fonction, vous pouvez supprimer les images de produits dont vous pouvez vous passer dans les r&eacute;pertoires suivants:</p>
 - /images/product_images/info_images<br/>
+- /images/product_images/midi_images<br/>
+- /images/product_images/mini_images<br/>
 - /images/product_images/original_images<br/>
 - /images/product_images/popup_images<br/>
 - /images/product_images/thumbnail_images<br/>

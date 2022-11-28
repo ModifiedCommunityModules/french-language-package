@@ -51,5 +51,6 @@ define('TEXT_TABLES_BACKUP_TYPE', '<b>Sauvegarde</b><br> - Quelles tables doiven
 define('TEXT_BACKUP_ALL', 'Toutes les tables');
 define('TEXT_BACKUP_CUSTOM', 'Tableaux s&eacute;lectionn&eacute;s');
 define('TEXT_TABLES_TO_BACKUP', '<b>Les tableaux suivants doivent &ecirc;tre sauvegard&eacute;s:</b>');
+define('TEXT_CHECK_ALL_TABLES', 'S&eacute;lectionner tous les tableaux');
 
 ?>

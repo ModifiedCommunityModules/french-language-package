@@ -25,6 +25,8 @@
 
 define('MODULE_SITEMAPORG_TEXT_DESCRIPTION', 'La d&eacute;finition standard se trouve ici: <a href="http://www.sitemaps.org/" target="_blank">www.sitemap.org</a>');
 define('MODULE_SITEMAPORG_TEXT_TITLE', 'XML Sitemap.org');
+define('MODULE_SITEMAPORG_EXPORTED', 'XML Sitemap.org cr&eacute;&eacute; avec succ&egrave;s.');
+
 define('MODULE_SITEMAPORG_FILE_TITLE' , '<hr />Nom de fichier');
 define('MODULE_SITEMAPORG_FILE_DESC' , 'Entrez un nom de fichier pour le plan du site, si vous souhaitez qu\'il soit enregistr&eacute; localement<br />(R&eacute;pertoire "export/")');
 define('MODULE_SITEMAPORG_STATUS_DESC','Statut du module');

@@ -17,5 +17,5 @@
   define('MODULE_ORDER_TOTAL_EASYCREDIT_FEE_STATUS_TITLE', 'Co&ucirc;ts de financement');
   define('MODULE_ORDER_TOTAL_EASYCREDIT_FEE_STATUS_DESC', 'Affichage des co&ucirc;ts de financement ?');
   define('MODULE_ORDER_TOTAL_EASYCREDIT_FEE_SORT_ORDER_TITLE', 'Ordre de tri');
-  define('MODULE_ORDER_TOTAL_EASYCREDIT_FEE_SORT_ORDER_DESC','S&eacute;quence d\'affichage.');
+  define('MODULE_ORDER_TOTAL_EASYCREDIT_FEE_SORT_ORDER_DESC','S&eacute;quence d\'affichage');
 ?>

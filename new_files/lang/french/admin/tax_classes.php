@@ -1,10 +1,14 @@
 <?php
 define('HEADING_TITLE', 'Classes d\'imposition');
 define('TABLE_HEADING_TAX_CLASSES', 'Classes d\'imposition');
+define('TABLE_HEADING_SORT_ORDER', 'Triage');
+
 define('TABLE_HEADING_ACTION', 'Action');
 define('TEXT_INFO_EDIT_INTRO', 'Veuillez apporter les modifications n&eacute;cessaires');
 define('TEXT_INFO_CLASS_TITLE', 'Titre de la classe d\'imp&ocirc;t:');
 define('TEXT_INFO_CLASS_DESCRIPTION', 'Description:');
+define('TEXT_INFO_CLASS_SORT_ORDER', 'Triage:');
+
 define('TEXT_INFO_DATE_ADDED', 'Date d\'ajout:');
 define('TEXT_INFO_LAST_MODIFIED', 'Derni&egrave;re modification:');
 define('TEXT_INFO_INSERT_INTRO', 'Veuillez saisir la nouvelle classe d\'imp&ocirc;t avec les donn&eacute;es qui s\'y rapportent');

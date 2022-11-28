@@ -22,7 +22,7 @@
   define('MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS_DESC','Voulez-vous afficher les frais de commande peu &eacute;lev&eacute;s?');
 
   define('MODULE_ORDER_TOTAL_LOWORDERFEE_SORT_ORDER_TITLE','Ordre de tri');
-  define('MODULE_ORDER_TOTAL_LOWORDERFEE_SORT_ORDER_DESC','Trier l\'ordre d\'affichage.');
+  define('MODULE_ORDER_TOTAL_LOWORDERFEE_SORT_ORDER_DESC','Trier l\'ordre d\'affichage');
 
   define('MODULE_ORDER_TOTAL_LOWORDERFEE_LOW_ORDER_FEE_TITLE','Autoriser des frais de commande peu &eacute;lev&eacute;s');
   define('MODULE_ORDER_TOTAL_LOWORDERFEE_LOW_ORDER_FEE_DESC','Souhaitez-vous autoriser des frais de commande peu &eacute;lev&eacute;s?');

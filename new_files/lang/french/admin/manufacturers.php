@@ -13,6 +13,8 @@ define('TEXT_IMAGE_NONEXISTENT', 'L\'IMAGE N\'EXISTE PAS');
 define('TEXT_NEW_INTRO', 'Veuillez remplir les informations suivantes pour le nouveau fabricant');
 define('TEXT_EDIT_INTRO', 'Veuillez apporter les modifications n&eacute;cessaires');
 define('TEXT_MANUFACTURERS_NAME', 'Nom du fabricant:');
+define('TEXT_MANUFACTURERS_TITLE', 'Fabricant Uberschrift:');
+
 define('TEXT_MANUFACTURERS_IMAGE', 'Image des fabricants:');
 define('TEXT_MANUFACTURERS_URL', 'URL des fabricants:');
 define('TEXT_DELETE_INTRO', '&Ecirc;tes-vous s&ucirc;r de vouloir supprimer ce fabricant?');

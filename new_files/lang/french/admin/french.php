@@ -1,6 +1,7 @@
 <?php
 
 @setlocale(LC_TIME, 'fr_FR.UTF-8', 'fr_FR@euro', 'fr_FR', 'fr-FR', 'fr', 'fr_FR.ISO_8859-1', 'French','fr_FR.ISO_8859-15');
+define('DATE_LOCALE', 'fr_FR');
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y');  // this is used for strftime()
@@ -154,6 +155,13 @@ define('BOX_SUPPORT', 'Soutien');
 define('BOX_CACHING', 'Caching');
 define('BOX_COOKIE_CONSENT', 'Consentement aux cookies');
 define('BOX_SEMKNOX', 'Recherche de site 360 Recherche de produits');
+define('BOX_PAGES_CONTENT', 'Pages de contenu');
+define('BOX_PRODUCTS_CONTENT', 'Article Annexe');
+define('BOX_CONTENT_CONTENT', 'Annexe au contenu');
+define('BOX_EMAIL_CONTENT', 'E-mail annexes');
+define('BOX_DHL', 'Exp&eacute;dition DHL &amp ; cr&eacute;ation d\'&eacute;tiquettes');
+
+
 define('TXT_GROUPS','<b>Groupes</b>:');
 define('TXT_SYSTEM','Syst&egrave;me');
 define('TXT_CUSTOMERS','Clients/commandes');
@@ -179,19 +187,19 @@ define('JS_PRODUCTS_MODEL', '* Le nouveau produit a besoin d\'une valeur mod&egr
 define('JS_PRODUCTS_IMAGE', '* Le nouveau produit a besoin d\'une valeur d\'image\n');
 define('JS_SPECIALS_PRODUCTS_PRICE', '* Un nouveau prix doit &ecirc;tre fix&eacute; pour ce produit\n');
 define('JS_GENDER', '* La valeur de la \'Salutation\' doit &ecirc;tre choisie.\n');
-define('JS_FIRST_NAME', '* L\'entr&eacute;e \'Pr&eacute;nom\' doit comporter au moins  ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caract&egrave;res.\n');
-define('JS_LAST_NAME', '* L\'entr&eacute;e \'Nom de famille\' doit comporter au moins ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caract&egrave;res.\n');
+define('JS_FIRST_NAME', '* L\'entr&eacute;e \'Pr&eacute;nom\' doit comporter au moins  ' . (defined('ENTRY_FIRST_NAME_MIN_LENGTH') ? ENTRY_FIRST_NAME_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
+define('JS_LAST_NAME', '* L\'entr&eacute;e \'Nom de famille\' doit comporter au moins ' . (defined('ENTRY_LAST_NAME_MIN_LENGTH') ? ENTRY_LAST_NAME_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
 define('JS_DOB', '* L\'entr&eacute;e \'Date de naissance\' doit &ecirc;tre au format: xx/xx/xxxx (date/mois/ann&eacute;e).\n');
-define('JS_EMAIL_ADDRESS', '* L\'entr&eacute;e \'Adresse &eacute;lectronique\' doit avoir au moins ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caract&egrave;res.\n');
-define('JS_ADDRESS', '* L\'entr&eacute;e \'Adresse de la rue\' doit avoir au moins ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' caract&egrave;res.\n');
-define('JS_POST_CODE', '* L\'entr&eacute;e \'Code postal\' doit comporter au moins ' . ENTRY_POSTCODE_MIN_LENGTH . ' caract&egrave;res.\n');
-define('JS_CITY', '* L\'entr&eacute;e \'Ville\' doit avoir au moins ' . ENTRY_CITY_MIN_LENGTH . ' caract&egrave;res.\n');
+define('JS_EMAIL_ADDRESS', '* L\'entr&eacute;e \'Adresse &eacute;lectronique\' doit avoir au moins ' . (defined('ENTRY_EMAIL_ADDRESS_MIN_LENGTH') ? ENTRY_EMAIL_ADDRESS_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
+define('JS_ADDRESS', '* L\'entr&eacute;e \'Adresse de la rue\' doit avoir au moins ' . (defined('ENTRY_STREET_ADDRESS_MIN_LENGTH') ? ENTRY_STREET_ADDRESS_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
+define('JS_POST_CODE', '* L\'entr&eacute;e \'Code postal\' doit comporter au moins ' . (defined('ENTRY_POSTCODE_MIN_LENGTH') ? ENTRY_POSTCODE_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
+define('JS_CITY', '* L\'entr&eacute;e \'Ville\' doit avoir au moins ' . (defined('ENTRY_CITY_MIN_LENGTH') ? ENTRY_CITY_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
 define('JS_STATE', '* L\'entr&eacute;e \'&Eacute;tat\' doit &ecirc;tre s&eacute;lectionn&eacute;e.\n');
 define('JS_STATE_SELECT', '-- S&eacute;lectionnez ci-dessus --');
 define('JS_ZONE', '* L\'entr&eacute;e \'&Eacute;tat\' doit &ecirc;tre s&eacute;lectionn&eacute;e dans la liste pour ce pays.');
 define('JS_COUNTRY', '* La valeur \'Pays\' doit &ecirc;tre choisie.\n');
-define('JS_TELEPHONE', '* L\'entr&eacute;e \'Num&eacute;ro de t&eacute;l&eacute;phone\' doit comporter au moins ' . ENTRY_TELEPHONE_MIN_LENGTH . ' caract&egrave;res.\n');
-define('JS_PASSWORD', '* Les entr&eacute;es \'Mot de passe\' et \'Confirmation\' doivent correspondre et comporter au moins ' . ENTRY_PASSWORD_MIN_LENGTH . ' caract&egrave;res.\n');
+define('JS_TELEPHONE', '* L\'entr&eacute;e \'Num&eacute;ro de t&eacute;l&eacute;phone\' doit comporter au moins ' . (defined('ENTRY_TELEPHONE_MIN_LENGTH') ? ENTRY_TELEPHONE_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
+define('JS_PASSWORD', '* Les entr&eacute;es \'Mot de passe\' et \'Confirmation\' doivent correspondre et comporter au moins ' . (defined('ENTRY_PASSWORD_MIN_LENGTH') ? ENTRY_PASSWORD_MIN_LENGTH : 0) . ' caract&egrave;res.\n');
 define('JS_ORDER_DOES_NOT_EXIST', 'Le num&eacute;ro d\'ordre %s n\'existe pas!');
 define('CATEGORY_PERSONAL', 'Personnel');
 define('CATEGORY_ADDRESS', 'Adresse');
@@ -201,29 +209,29 @@ define('CATEGORY_OPTIONS', 'Plus d\'options');
 define('ENTRY_GENDER', 'Salutation:');
 define('ENTRY_GENDER_ERROR', '&nbsp;<span class="errorText">requis</span>');
 define('ENTRY_FIRST_NAME', 'Pr&eacute;nom:');
-define('ENTRY_FIRST_NAME_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_FIRST_NAME_ERROR', '&nbsp;<span class="errorText">min. ' . (defined('ENTRY_FIRST_NAME_MIN_LENGTH') ? ENTRY_FIRST_NAME_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_LAST_NAME', 'Nom de famille:');
-define('ENTRY_LAST_NAME_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_LAST_NAME_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_LAST_NAME_ERROR', '&nbsp;<span class="errorText">min. ' . (defined('ENTRY_LAST_NAME_MIN_LENGTH') ? ENTRY_LAST_NAME_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_DATE_OF_BIRTH', 'Date de naissance:');
 define('ENTRY_DATE_OF_BIRTH_ERROR', '&nbsp;<span class="errorText">(e.g. 21/05/1970)</span>');
 define('ENTRY_EMAIL_ADDRESS', 'Adresse &eacute;lectronique:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_EMAIL_ADDRESS_ERROR', '&nbsp;<span class="errorText">min. ' . (defined('ENTRY_EMAIL_ADDRESS_MIN_LENGTH') ? ENTRY_EMAIL_ADDRESS_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', '&nbsp;<span class="errorText">Adresse &eacute;lectronique invalide! (Nous ne supportons pas actuellement les tr&eacute;mas allemands dans les adresses e-mail.)</span>');
 define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', '&nbsp;<span class="errorText">Cette adresse e-mail existe d&eacute;j&agrave;!</span>');
 define('ENTRY_COMPANY', 'Nom de la soci&eacute;t&eacute;:');
 define('ENTRY_STREET_ADDRESS', 'Adresse:');
-define('ENTRY_STREET_ADDRESS_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_STREET_ADDRESS_ERROR', '&nbsp;<span class="errorText">min. ' . (defined('ENTRY_STREET_ADDRESS_MIN_LENGTH') ? ENTRY_STREET_ADDRESS_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_SUBURB', 'Ajout &agrave; l\'adresse:');
 define('ENTRY_POST_CODE', 'Code postal:');
-define('ENTRY_POST_CODE_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_POSTCODE_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_POST_CODE_ERROR', '&nbsp;<span class="errorText">min. ' . (defined('ENTRY_POSTCODE_MIN_LENGTH') ? ENTRY_POSTCODE_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_CITY', 'Ville:');
-define('ENTRY_CITY_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_CITY_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_CITY_ERROR', '&nbsp;<span class="errorText">min. ' . (defined('ENTRY_CITY_MIN_LENGTH') ? ENTRY_CITY_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_STATE', '&Eacute;tat:');
 define('ENTRY_STATE_ERROR', '&nbsp;<span class="errorText">requis</font></small>');
 define('ENTRY_COUNTRY', 'Pays:');
 define('ENTRY_COUNTRY_ERROR', 'Veuillez choisir votre pays.');
 define('ENTRY_TELEPHONE_NUMBER', 'Num&eacute;ro de t&eacute;l&eacute;phone:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', '&nbsp;<span class="errorText">min. ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_TELEPHONE_NUMBER_ERROR', '&nbsp;<span class="errorText">min. ' . (defined('ENTRY_TELEPHONE_MIN_LENGTH') ? ENTRY_TELEPHONE_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_FAX_NUMBER', 'Num&eacute;ro de fax:');
 define('ENTRY_NEWSLETTER', 'Bulletin d\'information:');
 define('ENTRY_CUSTOMERS_STATUS', 'Statut du client:');
@@ -231,7 +239,7 @@ define('ENTRY_NEWSLETTER_YES', 'Inscrit');
 define('ENTRY_NEWSLETTER_NO', 'D&eacute;sinscription');
 define('ENTRY_MAIL_ERROR','&nbsp;<span class="errorText">Veuillez choisir une option</span>');
 define('ENTRY_PASSWORD','Mot de passe (g&eacute;n&eacute;r&eacute;)');
-define('ENTRY_PASSWORD_ERROR','&nbsp;<span class="errorText">min. ' . ENTRY_PASSWORD_MIN_LENGTH . ' tanks</span>');
+define('ENTRY_PASSWORD_ERROR','&nbsp;<span class="errorText">min. ' . (defined('ENTRY_PASSWORD_MIN_LENGTH') ? ENTRY_PASSWORD_MIN_LENGTH : 0) . ' tanks</span>');
 define('ENTRY_MAIL_COMMENTS','texte suppl&eacute;mentaire par e-mail:');
 define('ENTRY_MAIL','Envoyer un e-mail avec un mot de passe au client?');
 define('YES','oui');
@@ -410,6 +418,8 @@ define('ASB_QUICK_SEARCH_ORDER_ID','ID des ordres de recherche...');
 define('ASB_QUICK_SEARCH_ARTICLE','Rechercher des produits/cat&eacute;gories...');
 define('ASB_QUICK_SEARCH_EMAIL', 'Recherche d\'adresses &eacute;lectroniques...');
 define('ASB_QUICK_SEARCH_ARTICLE_ID','Recherche de produits/cat&eacute;gories ID...');
+define('ASB_QUICK_SEARCH_ORDER_OR_INVOICE','Recherche n&deg; de commande/r&eacute;f&eacute;rence....');
+
 //EOF - web28 - 2010-04-10 - ADMIN SEARCH BAR
 //BOF - web28 - 2010.05.30 - accounting - set all checkboxes , countries - set all flags
 define('BUTTON_SET','Tout cocher');
@@ -480,6 +490,15 @@ define('CFG_TXT_ORDERS', 'Commandes');
 define('CFG_TXT_CUSTOMERS', 'Clients');
 define('CFG_TXT_SALES_REPORT', 'Statistiques');
 define('CFG_TXT_BLOG', 'Blog');
+define('CFG_TXT_P.PRODUCTS_PRICE', 'Prix');
+define('CFG_TXT_PD.PRODUCTS_NAME', 'Nom de l\'article');
+define('CFG_TXT_P.PRODUCTS_DATE_ADDED', 'Date de recrutement');
+define('CFG_TXT_P.PRODUCTS_MODEL', 'Num&eacute;ro d\'article');
+define('CFG_TXT_P.PRODUCTS_ORDERED', 'Articles command&eacute;s');
+define('CFG_TXT_P.PRODUCTS_SORT', 'Ordre de tri');
+define('CFG_TXT_P.PRODUCTS_WEIGHT', 'Poids');
+define('CFG_TXT_P.PRODUCTS_QUANTITY', 'En stock');
+define('CFG_TXT_S.SPECIALS_DATE_ADDED', 'Date de recrutement');
 define('CSRF_TOKEN_MANIPULATION', 'Manipulation de CSRFToken (En raison d\'aspects de s&eacute;curit&eacute;, il n\'est plus autoris&eacute; de travailler dans la zone d\'administration dans diff&eacute;rents onglets du navigateur).');
 define('CSRF_TOKEN_NOT_DEFINED', 'CSRFToken non d&eacute;fini (En raison d\'aspects de s&eacute;curit&eacute;, il n\'est plus permis de travailler dans la zone d\'administration dans les diff&eacute;rents onglets du navigateur).');
 define('TEXT_ACCOUNTING_INFO','L\'administrateur principal [1] ne peut &ecirc;tre priv&eacute; des droits d\'acc&egrave;s.');
@@ -512,4 +531,7 @@ define('ONLY',' Maintenant seulement ');
 define('FROM','&agrave; partir de ');
 define('YOU_SAVE','vous &eacute;conomisez ');
 define('INSTEAD','Notre prix pr&eacute;c&eacute;dent ');
+define('TXT_PER',' par ');
+define('TEXT_NO_PAYMENT', 'Pas de mode de paiement');
+
 ?>

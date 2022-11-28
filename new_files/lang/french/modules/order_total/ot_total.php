@@ -24,5 +24,5 @@
   define('MODULE_ORDER_TOTAL_TOTAL_STATUS_DESC','Voulez-vous afficher la valeur totale de la commande ?');
 
   define('MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER_TITLE','Ordre de tri');
-  define('MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER_DESC','Trier l\'ordre d\'affichage.');
+  define('MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER_DESC','Trier l\'ordre d\'affichage');
 ?>

@@ -13,7 +13,7 @@
     "website": "https://www.modified-shop.org/forum/index.php?topic=36847.msg335412#msg335412",
     "category": "language",
     "modifiedCompatibility": [
-        "2.0.5.0", "2.0.5.1", "2.0.6.0"
+        "2.0.5.0", "2.0.5.1", "2.0.6.0", "2.0.7.2"
     ],
     "require": {
         "composer/autoload": "^1.1.0",

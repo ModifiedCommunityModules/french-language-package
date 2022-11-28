@@ -4,6 +4,7 @@ define('HEADING_TITLE_SEARCH', 'Recherchez:');
 define('TABLE_HEADING_CUSTOMERSCID','Identification du client');
 define('TABLE_HEADING_FIRSTNAME', 'Pr&eacute;nom');
 define('TABLE_HEADING_LASTNAME', 'Nom de famille');
+define('TABLE_HEADING_COUNTRY_NAME', 'Pays');
 define('TABLE_HEADING_ACCOUNT_CREATED', 'cr&eacute;&eacute;');
 define('TABLE_HEADING_ACTION', 'Action');
 define('TABLE_HEADING_EDIT','Modifier');
@@ -59,4 +60,8 @@ define('TEXT_MARKED_ELEMENTS','&Eacute;l&eacute;ments marqu&eacute;s');
 define('TEXT_INFO_HEADING_DELETE_ELEMENTS', 'Supprimer les &eacute;l&eacute;ments');
 define('TEXT_INFO_HEADING_STATUS_ELEMENTS', '&Eacute;l&eacute;ments du groupe de clients');
 define('TEXT_DELETE_REVIEWS_ELEMENTS', 'Supprimer les commentaires');
+define('TEXT_INFO_DATE','Date');
+define('TEXT_INFO_IP','IP');
+define('TEXT_INFO_REFID','RefID');
+
 ?>

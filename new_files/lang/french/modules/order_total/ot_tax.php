@@ -23,5 +23,5 @@
   define('MODULE_ORDER_TOTAL_TAX_STATUS_DESC','Voulez-vous afficher la valeur fiscale de la commande ?');
 
   define('MODULE_ORDER_TOTAL_TAX_SORT_ORDER_TITLE','Ordre de tri');
-  define('MODULE_ORDER_TOTAL_TAX_SORT_ORDER_DESC','Trier l\'ordre d\'affichage.');
+  define('MODULE_ORDER_TOTAL_TAX_SORT_ORDER_DESC','Trier l\'ordre d\'affichage');
 ?>

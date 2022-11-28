@@ -28,4 +28,6 @@ define('PLEASE_SELECT', 'Toutes les zones');
 define('TEXT_ALL_COUNTRIES', 'Tous les pays');
 define('TEXT_INFO_ZONE_INFO', 'Afficher les informations sur les droits de douane pour cette zone?');
 define('TEXT_INFO_ZONE_INFO_DEFAULT', 'Infos sur les droits s&eacute;lectionn&eacute;s.');
+define('TEXT_INFO_ZONE_TAX', 'Faut-il pr&eacute;voir la possibilit&eacute; d\'une classe de taxe distincte pour cette zone de taxe dans l\'article ?');
+define('TEXT_INFO_ZONE_TAX_DEFAULT', 'Pour cette zone fiscale, une classe fiscale sp&eacute;cifique est affich&eacute;e pour l\'article.');
 ?>
