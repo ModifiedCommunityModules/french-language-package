@@ -1,7 +1,8 @@
 <?php
 $lang_array = array(
-  'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_TITLE' => 'Lien vers PayPal Plus',
-  'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_INFO' => '<img src="https://www.paypal.com/de_DE/DE/i/logo/lockbox_150x47.gif" />',
+  'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_TITLE' => 'PayPal PLUS',
+  'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_ADMIN_TITLE' => 'Lien de paiement PayPal PLUS (uniquement si le si&egrave;ge de l\'entreprise est en Allemagne)<span style="background:#dd2400;color: #fff;font-weight: bold;padding: 2px 5px;border-radius: 4px;margin: 0 0 0 5px;">ALT</span>',
+  'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_INFO' => ((!defined('RUN_MODE_ADMIN') && function_exists('xtc_href_link')) ? '<img src="'.xtc_href_link(DIR_WS_ICONS.'paypal.png', '', 'SSL', false).'" />' : ''),
   'MODULE_PAYMENT_PAYPALPLUSLINK_TEXT_DESCRIPTION' => 'PayPal comme lien de paiement pour le client apr&egrave;s que la commande ait &eacute;t&eacute; compl&eacute;t&eacute;e. D&eacute;cidez vous-m&ecirc;me de l\'endroit o&ugrave; le client re&ccedil;oit la demande de paiement.<br/>PayPal Plus - les quatre m&eacute;thodes de paiement les plus populaires aupr&egrave;s des acheteurs allemands : PayPal, d&eacute;bit direct, carte de cr&eacute;dit et facture.<br/>Vous pouvez trouver plus d\'informations sur PayPal Plus <a target="_blank" href="https://www.paypal.com/de/webapps/mpp/paypal-plus">ici</a>.',
   'MODULE_PAYMENT_PAYPALPLUSLINK_ALLOWED_TITLE' => 'Zones autoris&eacute;es',
   'MODULE_PAYMENT_PAYPALPLUSLINK_ALLOWED_DESC' => 'Veuillez saisir les zones <b>s&eacute;par&eacute;ment</b> qui doivent &ecirc;tre autoris&eacute;es &agrave; utiliser ce module (par exemple AT,DE (laissez vide si vous voulez autoriser toutes les zones))',

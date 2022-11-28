@@ -41,4 +41,6 @@ $lang_array = array(
   'MODULE_PAYMENT_KLARNA_SHARED_SECRET_DESC' => 'Mot de passe API Klarna',
   'MODULE_PAYMENT_KLARNA_MODE_TITLE' => 'Mode',
   'MODULE_PAYMENT_KLARNA_MODE_DESC' => 'Klarna Mode',
+  'MODULE_PAYMENT_KLARNA_TEXT' => 'Klarna',
+
 );

@@ -46,7 +46,7 @@
   define('MODULE_ORDER_TOTAL_COUPON_STATUS_TITLE', 'Afficher le total');
   define('MODULE_ORDER_TOTAL_COUPON_STATUS_DESC', 'Voulez-vous afficher la valeur du coupon de r&eacute;duction ?');
   define('MODULE_ORDER_TOTAL_COUPON_SORT_ORDER_TITLE', 'Ordre de tri');
-  define('MODULE_ORDER_TOTAL_COUPON_SORT_ORDER_DESC', 'Ordre d\'affichage.');
+  define('MODULE_ORDER_TOTAL_COUPON_SORT_ORDER_DESC', 'Ordre d\'affichage');
   define('MODULE_ORDER_TOTAL_COUPON_INC_SHIPPING_TITLE', 'Inclure le transport maritime');
   define('MODULE_ORDER_TOTAL_COUPON_INC_SHIPPING_DESC', 'Inclure le transport maritime dans le calcul');
   define('MODULE_ORDER_TOTAL_COUPON_INC_TAX_TITLE', 'Inclure la taxe');

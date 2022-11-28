@@ -8,7 +8,10 @@
 define('HEADING_TITLE', 'D&eacute;finir les autorisations des groupes de clients');
 define('TEXT_CATEGORIES', 'Cat&eacute;gories');
 define('TEXT_PRODUCTS', 'Produits');
+define('TEXT_CONTENT_MANAGER', 'Pages de contenu');
+define('TEXT_CONTENT_MANAGER_CONTENT', 'Annexe au contenu');
 define('TEXT_CONTENT', 'Contenu du site (gestionnaire de contenu)');
+define('TEXT_EMAIL_CONTENT', 'E-mail annexes');
 define('TEXT_PRODUCTS_CONTENT', 'Contenu des produits (Gestionnaire de contenu)');
 define('TEXT_PERMISSION', '<div class="error_message">ATTENTION : Toutes les autorisations seront &eacute;cras&eacute;es!</div><br/>Autorisation');
 define('TEXT_SET', 'donner');
@@ -22,6 +25,13 @@ define('TEXT_PRODUCTS_SUCCESSFULLY_SET', 'Les autorisations de produits ont &eac
 define('TEXT_PRODUCTS_SUCCESSFULLY_UNSET', 'Les autorisations de produits ont &eacute;t&eacute; supprim&eacute;es avec succ&egrave;s.');
 define('TEXT_CONTENT_SUCCESSFULLY_SET', 'Les autorisations de contenu du site ont &eacute;t&eacute; &eacute;tablies avec succ&egrave;s.');
 define('TEXT_CONTENT_SUCCESSFULLY_UNSET', 'Les autorisations de contenu du site ont &eacute;t&eacute; supprim&eacute;es avec succ&egrave;s.');
+define('TEXT_CONTENT_MANAGER_SUCCESSFULLY_SET', 'Autorisations des pages de contenu d&eacute;finies avec succ&egrave;s.');
+define('TEXT_CONTENT_MANAGER_SUCCESSFULLY_UNSET', 'Autorisations des pages de contenu supprim&eacute;es avec succ&egrave;s.');
+define('TEXT_CONTENT_MANAGER_CONTENT_SUCCESSFULLY_SET', 'Content Annexe Autorisations d&eacute;finies avec succ&egrave;s.');
+define('TEXT_CONTENT_MANAGER_CONTENT_SUCCESSFULLY_UNSET', 'Content Annexe Autorisations supprim&eacute;es avec succ&egrave;s.');
 define('TEXT_PRODUCTS_CONTENT_SUCCESSFULLY_SET', 'Les autorisations de contenu des produits ont &eacute;t&eacute; &eacute;tablies avec succ&egrave;s.');
 define('TEXT_PRODUCTS_CONTENT_SUCCESSFULLY_UNSET', 'Les autorisations de contenu des produits ont &eacute;t&eacute; supprim&eacute;es avec succ&egrave;s.');
+define('TEXT_EMAIL_CONTENT_SUCCESSFULLY_SET', 'E-mail annexe Autorisations d&eacute;finies avec succ&egrave;s.');
+define('TEXT_EMAIL_CONTENT_SUCCESSFULLY_UNSET', 'Les autorisations des pi&egrave;ces jointes aux courriels ont &eacute;t&eacute; supprim&eacute;es avec succ&egrave;s.');
+
 ?>

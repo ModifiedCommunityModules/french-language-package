@@ -22,6 +22,17 @@ define('EXPECTED_PRODUCTS_SORT_TITLE' , 'Ordre de tri des produits attendus');
 define('EXPECTED_PRODUCTS_SORT_DESC' , 'Voici l\'ordre de tri utilis&eacute; dans la bo&icirc;te des produits attendus.');
 define('EXPECTED_PRODUCTS_FIELD_TITLE' , 'Champ de tri des produits export&eacute;s');
 define('EXPECTED_PRODUCTS_FIELD_DESC' , 'La colonne &agrave; trier dans la case des produits attendus.');
+define('PRODUCTS_NEW_SORT_TITLE', 'Ordre des nouveaux articles');
+define('PRODUCTS_NEW_SORT_DESC', 'C\'est l\'ordre dans lequel les nouveaux articles sont affich&eacute;s.');
+define('PRODUCTS_NEW_FIELD_TITLE', 'Zone de tri pour les nouveaux articles');
+define('PRODUCTS_NEW_FIELD_DESC', 'Il s\'agit de la colonne utilis&eacute;e pour trier les nouveaux articles.');
+
+define('SPECIALS_SORT_TITLE', 'Reihenfolge f&uuml;r Sonderangebote');
+define('SPECIALS_SORT_DESC', 'Das ist die Reihenfolge, wie Sonderangebote angezeigt werden.');
+define('SPECIALS_FIELD_TITLE', 'Sortierfeld f&uuml;r Sonderangebote');
+define('SPECIALS_FIELD_DESC', 'Das ist die Spalte, die zum Sortieren von Sonderangebote benutzt wird.');
+
+
 define('USE_DEFAULT_LANGUAGE_CURRENCY_TITLE' , 'Passer &agrave; une monnaie sp&eacute;cifique &agrave; une langue');
 define('USE_DEFAULT_LANGUAGE_CURRENCY_DESC' , 'Changer automatiquement de devise pour le pays du client si la devise est disponible.');
 define('SEND_EXTRA_ORDER_EMAILS_TO_TITLE' , 'Envoyez des copies des courriers &eacute;lectroniques de commande &agrave;:');
@@ -83,11 +94,11 @@ define('MIN_DISPLAY_ALSO_PURCHASED_DESC' , 'Nombre minimum de produits &agrave; 
 define('MAX_ADDRESS_BOOK_ENTRIES_TITLE' , 'Inscriptions dans le carnet d\'adresses');
 define('MAX_ADDRESS_BOOK_ENTRIES_DESC' , 'Nombre maximum d\'entr&eacute;es dans le carnet d\'adresses qu\'un client est autoris&eacute; &agrave; avoir');
 define('MAX_DISPLAY_SEARCH_RESULTS_TITLE' , 'Montant Produits');
-define('MAX_DISPLAY_SEARCH_RESULTS_DESC' , 'Quantit&eacute; de produits dans la liste des produits');
+define('MAX_DISPLAY_SEARCH_RESULTS_DESC' , 'Nombre maximum d\'articles &agrave; afficher par page dans le listing des produits (pages de cat&eacute;gories)');
 define('MAX_DISPLAY_PAGE_LINKS_TITLE' , 'Liens de la page');
 define('MAX_DISPLAY_PAGE_LINKS_DESC' , 'Nombre de liens "num&eacute;rot&eacute;s" utilis&eacute;s pour les pages');
 define('MAX_DISPLAY_SPECIAL_PRODUCTS_TITLE' , 'Specials');
-define('MAX_DISPLAY_SPECIAL_PRODUCTS_DESC' , 'Nombre maximum de produits &agrave; afficher sur l\'offre sp&eacute;ciale');
+define('MAX_DISPLAY_SPECIAL_PRODUCTS_DESC' , 'Nombre maximum d\'offres sp&eacute;ciales (specials.php) &agrave; afficher par page.');
 define('MAX_DISPLAY_NEW_PRODUCTS_TITLE' , 'Module de nouveaux produits');
 define('MAX_DISPLAY_NEW_PRODUCTS_DESC' , 'Nombre maximum de nouveaux produits &agrave; afficher dans une cat&eacute;gorie et comme "TOP-produits" sur la page d\'accueil');
 define('MAX_DISPLAY_UPCOMING_PRODUCTS_TITLE' , 'Produits &agrave; venir');
@@ -109,7 +120,7 @@ define('MAX_RANDOM_SELECT_SPECIALS_DESC' , 'Combien d\'enregistrements &agrave; 
 define('MAX_DISPLAY_CATEGORIES_PER_ROW_TITLE' , 'Cat&eacute;gories &agrave; &eacute;num&eacute;rer par rang&eacute;e');
 define('MAX_DISPLAY_CATEGORIES_PER_ROW_DESC' , 'Combien de cat&eacute;gories &agrave; &eacute;num&eacute;rer par ligne');
 define('MAX_DISPLAY_PRODUCTS_NEW_TITLE' , 'Liste des nouveaux produits');
-define('MAX_DISPLAY_PRODUCTS_NEW_DESC' , 'Nombre maximum de nouveaux produits &agrave; afficher sur la page "nouveaux produits" (products_new.php)');
+define('MAX_DISPLAY_PRODUCTS_NEW_DESC' , 'Nombre maximum de nouveaux articles &agrave; afficher par page de "Nouveaux articles" (products_new.php)."');
 define('MAX_DISPLAY_BESTSELLERS_TITLE' , 'Les meilleures ventes');
 define('MAX_DISPLAY_BESTSELLERS_DESC' , 'Nombre maximum de meilleures ventes &agrave; afficher');
 define('MAX_DISPLAY_BESTSELLERS_DAYS_TITLE' , '&Acirc;ge maximum (jours) pour les meilleures ventes');
@@ -272,7 +283,7 @@ define('STOCK_REORDER_LEVEL_DESC' , 'D&eacute;finir quand le stock doit &ecirc;t
 define('STORE_PAGE_PARSE_TIME_TITLE' , 'Stocker la page parse time');
 define('STORE_PAGE_PARSE_TIME_DESC' , 'Enregistrez le temps n&eacute;cessaire pour analyser une page');
 define('STORE_PARSE_DATE_TIME_FORMAT_TITLE' , 'Format de la date du fichier journal');
-define('STORE_PARSE_DATE_TIME_FORMAT_DESC' , 'Le format de la date (par d&eacute;faut: %d/%m/%Y %H:%M:%S)');
+define('STORE_PARSE_DATE_TIME_FORMAT_DESC' , 'Le format de la date (par d&eacute;faut: d/m/Y H:M:S)');
 define('STORE_DB_SLOW_QUERY_TITLE' , 'Journal de bord de la recherche lente');
 define('STORE_DB_SLOW_QUERY_DESC' , 'Il ne faut enregistrer que les requ&ecirc;tes SQL lentes?<br/><strong>Attention : Les interrogations de la base de donn&eacute;es de stockage doivent &ecirc;tre activ&eacute;es!</strong>.<br/><strong>Attention : Le fichier peut devenir tr&egrave;s volumineux lors de longues sessions d\'enregistrement!</strong>.<br/><br/>Le fichier journal est enregistr&eacute; dans /log in the shoproot');
 define('STORE_DB_SLOW_QUERY_TIME_TITLE' , 'Journal de bord de la recherche lente - Temps');
@@ -281,8 +292,9 @@ define('DISPLAY_PAGE_PARSE_TIME_TITLE' , 'Afficher le temps d\'analyse de la pag
 define('DISPLAY_PAGE_PARSE_TIME_DESC' , 'Afficher le temps d\'analyse de la page<br /><strong>aucun</strong>: d&eacute;sactiv&eacute;<br /><strong>admin</strong>: Seul l\'administrateur voit la page parse time<br /><strong>tous</strong>: Tout le monde voit le temps d\'analyse de la page');
 define('STORE_DB_TRANSACTIONS_TITLE' , 'Interroger la base de donn&eacute;es du magasin');
 define('STORE_DB_TRANSACTIONS_DESC' , 'Stocker les interrogations de la base de donn&eacute;es dans le fichier journal de la page parse time<br/><strong>Attention : Le fichier peut devenir tr&egrave;s volumineux lors de longues sessions d\'enregistrement!</strong>.<br/><br/>Le fichier journal est enregistr&eacute; dans /log in the shoproot');
-define('USE_CACHE_TITLE' , 'Utiliser le cache');
-define('USE_CACHE_DESC' , 'Utiliser les fonctions de mise en cache');
+define('USE_CACHE_TITLE' , 'Utiliser le cache des mod&egrave;les');
+define('USE_CACHE_DESC' , 'Utiliser les fonctions de cache du mod&egrave;le.');
+
 define('DB_CACHE_TITLE','Cache DB');
 define('DB_CACHE_DESC','Mettre en cache les r&eacute;sultats des recherches dans les bases de donn&eacute;es afin de gagner en rapidit&eacute; pour les bases de donn&eacute;es lentes.');
 define('DB_CACHE_EXPIRE_TITLE','DB Cache dur&eacute;e de vie');
@@ -394,6 +406,9 @@ define('SESSION_CHECK_IP_ADDRESS_TITLE' , 'V&eacute;rifier l\'adresse IP');
 define('SESSION_CHECK_IP_ADDRESS_DESC' , 'Valider l\'adresse IP du client &agrave; chaque demande de page. (Par d&eacute;faut &quot;false&quot;)'.SESSION_WARNING);
 define('SESSION_RECREATE_TITLE' , 'S&eacute;ance de r&eacute;cr&eacute;ation');
 define('SESSION_RECREATE_DESC' , 'Recr&eacute;er la session pour g&eacute;n&eacute;rer un nouvel identifiant de session lorsqu\'un client se connecte ou cr&eacute;e un compte (PHP >=4.1 n&eacute;cessaire). (Par d&eacute;faut &quot;false&quot;)'.SESSION_WARNING);
+define('SESSION_DELETE_OLD_COOKIES_TITLE' , 'Suppression du cookie de session');
+define('SESSION_DELETE_OLD_COOKIES_DESC' , 'Les anciens cookies de session doivent-ils &ecirc;tre supprim&eacute;s ? Apr&egrave;s une mise &agrave; jour de la version du shop <= 2.0.1.0, il est recommand&eacute; d\'activer cette option. (Par d&eacute;faut &quot;false&quot ;)'.SESSION_WARNING);
+
 define('DISPLAY_CONDITIONS_ON_CHECKOUT_TITLE' , 'Afficher les conditions &agrave; la caisse');
 define('DISPLAY_CONDITIONS_ON_CHECKOUT_DESC' , 'Afficher les termes et conditions &agrave; la caisse.');
 define('SIGN_CONDITIONS_ON_CHECKOUT_TITLE' , 'Signer les conditions &agrave; la caisse');
@@ -426,10 +441,11 @@ define('MODULE_ORDER_TOTAL_INSTALLED_TITLE' , 'Total des modules de la commande 
 define('MODULE_ORDER_TOTAL_INSTALLED_DESC' , 'Liste des noms de fichiers du module order_total s&eacute;par&eacute;s par un point-virgule. La liste est mise &agrave; jour automatiquement. Il n\'est pas n&eacute;cessaire de la modifier. (Exemple: ot_subtotal.php;ot_tax.php;ot_shipping.php;ot_total.php)');
 define('MODULE_SHIPPING_INSTALLED_TITLE' , 'Modules d\'exp&eacute;dition install&eacute;s');
 define('MODULE_SHIPPING_INSTALLED_DESC' , 'Liste des noms de fichiers des modules d\'exp&eacute;dition s&eacute;par&eacute;s par un point-virgule. La liste est mise &agrave; jour automatiquement. Il n\'est pas n&eacute;cessaire de la modifier. (Exemple: ups.php;flat.php;item.php)');
-define('CACHE_LIFETIME_TITLE','Cache Lifetime');
-define('CACHE_LIFETIME_DESC','Le nombre de secondes de contenu mis en cache persistera');
-define('CACHE_CHECK_TITLE','V&eacute;rifier si le cache a &eacute;t&eacute; modifi&eacute;');
-define('CACHE_CHECK_DESC','Si c\'est le cas, les en-t&ecirc;tes If-Modified-Since sont pris en compte dans le contenu mis en cache et les en-t&ecirc;tes HTTP appropri&eacute;s sont envoy&eacute;s. De cette fa&ccedil;on, les acc&egrave;s r&eacute;p&eacute;t&eacute;s &agrave; une page mise en cache n\'envoient pas la page enti&egrave;re au client &agrave; chaque fois.');
+
+define('CACHE_LIFETIME_TITLE','Template Cache Dur&eacute;e de vie');
+define('CACHE_LIFETIME_DESC','Temps en secondes avant que les fichiers du cache des mod&egrave;les ne soient automatiquement &eacute;cras&eacute;s.');
+define('CACHE_CHECK_TITLE','Contr&ocirc;le du cache des mod&egrave;les');
+define('CACHE_CHECK_DESC','Si elles sont actives, les en-t&ecirc;tes If-Modified-Since sont prises en compte pour le contenu mis en cache et les en-t&ecirc;tes HTTP correspondants sont &eacute;mis. Ainsi, les pages appel&eacute;es r&eacute;guli&egrave;rement ne sont pas renvoy&eacute;es &agrave; chaque fois au client.');
 define('PRODUCT_REVIEWS_VIEW_TITLE','Examens dans Product Details');
 define('PRODUCT_REVIEWS_VIEW_DESC','Nombre d\'avis affich&eacute;s sur la page de d&eacute;tails du produit');
 define('DELETE_GUEST_ACCOUNT_TITLE','Supprimer les comptes d\'invit&eacute;s');
@@ -632,10 +648,10 @@ define ('SESSION_LIFE_ADMIN_DESC', 'Temps en secondes avant l\'expiration du tem
 define ('SESSION_LIFE_CUSTOMERS_TITLE', 'Session client &agrave; vie');
 define ('SESSION_LIFE_CUSTOMERS_DESC', 'Temps en secondes avant l\'expiration du temps de session pour les clients (d&eacute;connexion) - Par d&eacute;faut 1440<br />La valeur saisie n\'est appliqu&eacute;e que si le traitement de la session est bas&eacute; sur db (configure.php => define(\'STORE_SESSIONS\', \'mysql\');)<br />Valeur maximale: 14400');
 //checkout confirmation options
-define ('CHECKOUT_USE_PRODUCTS_SHORT_DESCRIPTION_TITLE', 'Page de confirmation de la commande : Description succincte');
-define ('CHECKOUT_USE_PRODUCTS_SHORT_DESCRIPTION_DESC', 'Souhaitez-vous afficher la br&egrave;ve description des produits sur la page de confirmation de la commande ? Remarque : la description succincte est affich&eacute;e lorsqu\'il n\'y a PAS de description de la commande de produits. Si vous r&eacute;glez cette option sur FALSE, la description courte n\'est g&eacute;n&eacute;ralement pas affich&eacute;e!');
-define('CHECKOUT_USE_PRODUCTS_DESCRIPTION_FALLBACK_LENGTH_TITLE','Longueur de la description lorsque la description succincte est vide');
-define('CHECKOUT_USE_PRODUCTS_DESCRIPTION_FALLBACK_LENGTH_DESC','De quelle longueur doit &ecirc;tre coup&eacute;e la description lorsqu\'il n\'y a pas de description courte?');
+define('CHECKOUT_USE_PRODUCTS_SHORT_DESCRIPTION_TITLE','Br&egrave;ve description dans la confirmation de commande/d\'ordre et sur la page de confirmation de commande ?');
+define('CHECKOUT_USE_PRODUCTS_SHORT_DESCRIPTION_DESC','Si "Oui", la description courte est affich&eacute;e aux points mentionn&eacute;s, si la description de la commande est vide.<br />Si la description courte est &eacute;galement vide, la description longue sera utilis&eacute;e, r&eacute;duite au nombre de caract&egrave;res indiqu&eacute; ci-dessous dans "Longueur de la description si la description courte est vide".');
+define('CHECKOUT_USE_PRODUCTS_DESCRIPTION_FALLBACK_LENGTH_TITLE','Longueur de la description si la description courte est vide');
+define('CHECKOUT_USE_PRODUCTS_DESCRIPTION_FALLBACK_LENGTH_DESC','A quelle longueur la description doit-elle &ecirc;tre coup&eacute;e si aucune description courte n\'est disponible? (Le texte est compl&eacute;t&eacute; par [...])<br />Ne s\'applique que si "<i>Br&egrave;ve description dans la confirmation de commande/d\'ordre et sur la page de confirmation de commande</i>" ci-dessus est r&eacute;gl&eacute; sur "Oui".');
 define ('CHECKOUT_SHOW_PRODUCTS_IMAGES_TITLE', 'Page de confirmation de la commande : Images des produits');
 define ('CHECKOUT_SHOW_PRODUCTS_IMAGES_DESC', 'Si sur la page de confirmation de la commande, les images du produit sont affich&eacute;es?');
 define ('CHECKOUT_SHOW_PRODUCTS_MODEL_TITLE', 'Page de confirmation de la commande : No d\'article');
@@ -688,7 +704,7 @@ define('TRACKING_PIWIK_GOAL_DESC' , 'Entrez votre num&eacute;ro de campagne, si 
 define ('CONFIRM_SAVE_ENTRY_TITLE', 'Confirmation lors de la sauvegarde des articles / cat&eacute;gorie');
 define ('CONFIRM_SAVE_ENTRY_DESC', 'Doit-on faire un message de confirmation lors de la sauvegarde des produits/cat&eacute;gories ? Valeur par d&eacute;faut : true (oui)');
 define('WHOS_ONLINE_IP_WHOIS_SERVICE_TITLE', 'Qui est en ligne - URL de recherche Whois');
-define('WHOS_ONLINE_IP_WHOIS_SERVICE_DESC', 'http://www.utrace.de/?query= ou http://whois.domaintools.com/');
+define('WHOS_ONLINE_IP_WHOIS_SERVICE_DESC', 'https://utrace.me/?query= oder https://whois.domaintools.com/');
 define('STOCK_CHECKOUT_UPDATE_PRODUCTS_STATUS_TITLE', 'Ex&eacute;cution de la commande - d&eacute;sactivation Vendu?');
 define('STOCK_CHECKOUT_UPDATE_PRODUCTS_STATUS_DESC', 'Si un article &eacute;puis&eacute; ( stock 0 ) est automatiquement d&eacute;sactiv&eacute; &agrave; la fin de la commande ? L\'article n\'est plus visible dans la boutique ! <br /> On Les produits sont &agrave; nouveau disponibles sous peu, l\'option doit &ecirc;tre r&eacute;gl&eacute;e sur "faux"');
 define('SEND_EMAILS_DOUBLE_OPT_IN_TITLE','Double-Opt-In pour l\'inscription &agrave; la newsletter.');
@@ -720,14 +736,14 @@ define('META_STOP_WORDS_DESC', 'Veuillez entrer les mots cl&eacute;s s&eacute;pa
 define('META_GO_WORDS_TITLE', 'Mots d\'ordre');
 define('META_GO_WORDS_DESC', 'Veuillez entrer les mots-cl&eacute;s autoris&eacute;s, s&eacute;par&eacute;s par des virgules.');
 //BOC added text constants for group id 20, noRiddle
-define('CSV_CATEGORY_DEFAULT_TITLE','Cat&eacute;gorie pour l\'importation');
-define('CSV_CATEGORY_DEFAULT_DESC','Tous les produits du fichier d\'importation csv qui ont <b>not</b> une cat&eacute;gorie d&eacute;finie seront import&eacute;s dans cette cat&eacute;gorie.<br/><b>Attention:</b> Si vous ne souhaitez pas importer des produits qui n\'ont pas de cat&eacute;gorie d&eacute;finie, s&eacute;lectionnez la cat&eacute;gorie "Top" car il n\'est pas possible d\'importer dans cette cat&eacute;gorie.');
 define('CSV_TEXTSIGN_TITLE','Textsign');
 define('CSV_TEXTSIGN_DESC','par exemple " &nbsp; | &nbsp; <span style="color:#c00;"> En point-virgule comme d&eacute;limiteur, le qualificatif du texte doit &ecirc;tre fix&eacute; &agrave;" </ span>');
 define('CSV_SEPERATOR_TITLE','S&eacute;parateur');
 define('CSV_SEPERATOR_DESC','par exemple ; &nbsp; | &nbsp;<span Style="color:#c00;"> le champ de saisie est laiss&eacute; vide est l\'export/import par d&eacute;faut \\t (= tabulation) utilis&eacute; </ span> ');
 define('COMPRESS_EXPORT_TITLE','Compression');
 define('COMPRESS_EXPORT_DESC','Compresser le fichier d\'exportation');
+define('CSV_CATEGORY_DEFAULT_TITLE','Cat&eacute;gorie pour l\'importation');
+define('CSV_CATEGORY_DEFAULT_DESC','Tous les produits du fichier d\'importation csv qui ont <b>not</b> une cat&eacute;gorie d&eacute;finie seront import&eacute;s dans cette cat&eacute;gorie.<br/><b>Attention:</b> Si vous ne souhaitez pas importer des produits qui n\'ont pas de cat&eacute;gorie d&eacute;finie, s&eacute;lectionnez la cat&eacute;gorie "Top" car il n\'est pas possible d\'importer dans cette cat&eacute;gorie.');
 //BOC added constants for category depth, noRiddle
 define('CSV_CAT_DEPTH_TITLE','Profondeur de la cat&eacute;gorie');
 define('CSV_CAT_DEPTH_DESC','Jusqu\'o&ugrave; l\'arbre des cat&eacute;gories doit-il aller ? (par exemple, avec la valeur par d&eacute;faut 4 : cat&eacute;gorie principale plus 3 sous-cat&eacute;gories)<br />Cette indication est importante pour que les cat&eacute;gories int&eacute;gr&eacute;es dans le CSV soient bien import&eacute;es. Il en va de m&ecirc;me pour la fonction d\'exportation.<br /><span style="color:#c00;">Plus de 4 peut entra&icirc;ner une perte de performance et n\'est probablement pas facile &agrave; utiliser!');
@@ -753,6 +769,7 @@ define('MAX_DISPLAY_PRODUCTS_CATEGORY_TITLE', 'Produits maximum');
 define('MAX_DISPLAY_PRODUCTS_CATEGORY_DESC', 'Maximum de produits de la m&ecirc;me cat&eacute;gorie');
 define('MAX_DISPLAY_ADVANCED_SEARCH_RESULTS_TITLE', 'R&eacute;sultats de la recherche');
 define('MAX_DISPLAY_ADVANCED_SEARCH_RESULTS_DESC', 'Nombre de produits dans le r&eacute;sultat de la recherche');
+define('MAX_DISPLAY_ADVANCED_SEARCH_RESULTS_DESC', 'Nombre maximum d\'articles &agrave; afficher par page dans les r&eacute;sultats de recherche (advanced_search_result.php).');
 define('MAX_DISPLAY_PRODUCTS_HISTORY_TITLE' , 'Historique maximum');
 define('MAX_DISPLAY_PRODUCTS_HISTORY_DESC' , 'Nombre maximum de produits visit&eacute;s dans l\'historique du compte');
 define('PRODUCT_IMAGE_SHOW_NO_IMAGE_TITLE', 'Produit noimage.gif');
@@ -918,7 +935,13 @@ define('MODULE_NEWSLETTER_VOUCHER_AMOUNT_TITLE', 'Montant du bon de newsletter')
 define('MODULE_NEWSLETTER_VOUCHER_AMOUNT_DESC', 'Pour l\'inscription &agrave; la lettre d\'information, placer le montant, mettre 0 pour aucun montant.');
 define('MODULE_NEWSLETTER_DISCOUNT_COUPON_TITLE', 'Code de coupon de la newsletter');
 define('MODULE_NEWSLETTER_DISCOUNT_COUPON_DESC', 'Pour le coupon d\'inscription &agrave; la newsletter, indiquez le code de coupon que vous souhaitez utiliser ou laissez ce champ vide pour le d&eacute;sactiver.');
+define('MODULE_NEWSLETTER_INFOS_TITLE', 'Info sur la newsletter');
+define('MODULE_NEWSLETTER_INFOS_DESC', 'Choisir le contenu &agrave; afficher comme info newsletter.');
 define('ADMIN_START_TAB_SELECTED_TITLE', 'Page d\'accueil des onglets');
 define('ADMIN_START_TAB_SELECTED_DESC', 'Quel onglet de la page d\'accueil doit &ecirc;tre s&eacute;lectionn&eacute; par d&eacute;faut?');
 define('CACHE_LIFETIME_NOTE', '<b>A l\'attention de:</b> Si le cache est activ&eacute;, les modifications ne seront visibles dans le magasin qu\'apr&egrave;s l\'expiration de la dur&eacute;e de vie du cache!');
+define('REVIEWS_PURCHASED_ONLY_TITLE', 'V&eacute;rifier les &eacute;valuations');
+define('REVIEWS_PURCHASED_ONLY_DESC', 'Est-ce que les &eacute;valuations ne doivent &ecirc;tre possibles que si un client a &eacute;galement achet&eacute; l\'article ?');
+define('REVIEWS_PURCHASED_INFOS_TITLE', 'Infos sur les &eacute;valuations');
+define('REVIEWS_PURCHASED_INFOS_DESC', 'Choisir le contenu de l\'annonce comme information d\'&eacute;valuation sur son authenticit&eacute;.');
 ?>

@@ -144,6 +144,7 @@ define('ENTRY_PASSWORD_ERROR_MIN_LOWER','Votre mot de passe doit contenir au moi
 define('ENTRY_PASSWORD_ERROR_MIN_UPPER','Votre mot de passe doit contenir au moins %s Capitals.');
 define('ENTRY_PASSWORD_ERROR_MIN_NUM','Votre mot de passe doit contenir au moins %s chiffre.');
 define('ENTRY_PASSWORD_ERROR_MIN_CHAR','Votre mot de passe doit contenir au moins %s caract&egrave;re sp&eacute;cial.');
+define('ENTRY_PASSWORD_ERROR_INVALID_CHAR', 'Votre mot de passe contient des caract&egrave;res non valides. Veuillez utiliser un autre mot de passe.');
 define('ENTRY_PASSWORD_ERROR_NOT_MATCHING','Vos mots de passe ne correspondent pas');
 define('ENTRY_PASSWORD_TEXT','*');
 define('ENTRY_PASSWORD_CONFIRMATION_TEXT','*');
@@ -553,6 +554,7 @@ define('TEXT_SAVED_BASKET','S\'il vous pla&icirc;t v&eacute;rifier votre panier.
 define('ERROR_REVIEW_TEXT','Le texte de l\'auteur doit &ecirc;tre d\'au moins ' . REVIEW_TEXT_MIN_LENGTH . ' caract&egrave;res.');
 define('ERROR_REVIEW_RATING','S\'il vous pla&icirc;t entrer votre avis.');
 define('ERROR_REVIEW_AUTHOR','S\'il vous pla&icirc;t entrer votre nom.');
+define('ERROR_REVIEW_PRODUCT_PURCHASED', 'Seuls les articles qui ont &eacute;t&eacute; achet&eacute;s chez nous peuvent &ecirc;tre &eacute;valu&eacute;s.');
 
 define('GV_NO_PAYMENT_INFO','<div class="infomessage">Vous pouvez payer compl&eacute;ter la commande avec votre cr&eacute;dit. Si vous ne voulez pas de faire racheter votre cr&eacute;dit, d&eacute;sactivez la s&eacute;lection de la banque et s&eacute;lectionnez un paiement!</div>');
 define('GV_ADD_PAYMENT_INFO','<div class="errormessage">Votre solde est insuffisant pour payer l\'ordre compl&egrave;tement. S\'il vous pla&icirc;t s&eacute;lectionner un paiement suppl&eacute;mentaire!</div>');
@@ -667,4 +669,6 @@ define('SITEMAP_ERROR_401', 'Error 401: Non autoris&eacute;.');
 define('SITEMAP_ERROR_403', 'Error 403: Interdit.');
 define('SITEMAP_ERROR_404', 'Error 404: Non trouv&eacute;!');
 define('SITEMAP_ERROR_500', 'Error 500: Erreur de serveur interne.');
+define('ERROR_PRODUCTS_MISSING_CONFIGURATION_NOT_ADDED', 'Certains articles de votre commande ne sont plus disponibles dans la configuration souhait&eacute;e et n\'ont pas &eacute;t&eacute; ajout&eacute;s au panier.');
+
 ?>

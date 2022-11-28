@@ -138,4 +138,7 @@ define('BUTTON_ORDER_MAIL_STEP', 'Envoyer un courrier de commande');
 define('COMMENT_SEND_ORDER_MAIL_STEP' , 'Le courrier de commande est envoy&eacute;');
 define('SUCCESS_ORDER_MAIL_STEP_SEND', 'Envoi r&eacute;ussi du courrier de commande');
 define('BILLPAY_ORDER_UPDATE_HIGH', 'Erreur : La nouvelle valeur totale ne peut pas &ecirc;tre sup&eacute;rieure &agrave; l\'ancienne valeur totale des paiements de factures');
+define('TABLE_HEADING_INVOICE_NUMBER', 'N&deg; de r&eacute;f&eacute;rence');
+define('BUTTON_BILL', 'Cr&eacute;er un num&eacute;ro de facture');
+define('NOT_ASSIGNED', 'pas encore attribu&eacute;!');
 ?>

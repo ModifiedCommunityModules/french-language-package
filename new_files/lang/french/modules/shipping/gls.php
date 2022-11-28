@@ -18,6 +18,9 @@ define('MODULE_SHIPPING_GLS_SORT_ORDER_TITLE' , 'Ordre d\'affichage');
 define('MODULE_SHIPPING_GLS_SORT_ORDER_DESC' , 'Lowerst sera montr&eacute; en premier.');
 define('MODULE_SHIPPING_GLS_ALLOWED_TITLE' , 'Zones de navigation uniques');
 define('MODULE_SHIPPING_GLS_ALLOWED_DESC' , 'Entrez les zones <b>une par une</b>, dans lesquelles l\'exp&eacute;dition devrait &ecirc;tre possible, par exemple : AT,DE');
+define('MODULE_SHIPPING_GLS_DISPLAY_TITLE' , 'Activer l\'affichage');
+define('MODULE_SHIPPING_GLS_DISPLAY_DESC' , 'Souhaitez-vous indiquer si l\'exp&eacute;dition vers le pays n\'est pas possible ou si les frais de port n\'ont pas pu &ecirc;tre calcul&eacute;s ?');
+
 define('MODULE_SHIPPING_GLS_COUNTRIES_1_TITLE' , 'Pays de la zone 1 du GLS');
 define('MODULE_SHIPPING_GLS_COUNTRIES_1_DESC' , 'Liste s&eacute;par&eacute;e par des virgules des codes de pays ISO &agrave; deux caract&egrave;res qui font partie de la zone 1 (Entrez WORLD pour le reste du monde.).');
 define('MODULE_SHIPPING_GLS_COST_1_TITLE' , 'Tableau des transports maritimes de la zone 1 du GLS');

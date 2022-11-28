@@ -7,7 +7,13 @@
   define('MODULE_PRODUCTS_EXPORT_FILE_TITLE' , 'Nom de fichier');
   define('MODULE_PRODUCTS_EXPORT_FILE_DESC' , 'Entrez un nom de fichier. <br />(R&eacute;pertoire export/)');
 
-  define('MODULE_PRODUCTS_EXPORT_CUSTOMERS_STATUS_TITLE','<br><strong>Statut des clients:</strong>');
+define('MODULE_PRODUCTS_EXPORT_SEPARATOR_TITLE', 'S&eacute;parateur');
+define('MODULE_PRODUCTS_EXPORT_SEPARATOR_DESC', 'Indiquez le caract&egrave;re qui doit s&eacute;parer les colonnes.');
+define('MODULE_PRODUCTS_EXPORT_ENCLOSURE_TITLE', 'Identifiant de texte');
+define('MODULE_PRODUCTS_EXPORT_ENCLOSURE_DESC', 'Indiquez le caract&egrave;re qui identifie le contenu.');
+
+
+define('MODULE_PRODUCTS_EXPORT_CUSTOMERS_STATUS_TITLE','<br><strong>Statut des clients:</strong>');
   define('MODULE_PRODUCTS_EXPORT_CUSTOMERS_STATUS_DESC','Veuillez s&eacute;lectionner le groupe de clients pour le prix export&eacute;. (Si vous n\'avez pas de prix par groupe de clients, choisissez <i>Invit&eacute;(e)):');
   define('MODULE_PRODUCTS_EXPORT_LANGUAGE_TITLE','<br><strong>Langue:</strong>');
   define('MODULE_PRODUCTS_EXPORT_LANGUAGE_DESC','Langue dans le fichier d\'exportation');

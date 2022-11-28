@@ -24,8 +24,10 @@ $lang_array = array(
   'TEXT_PAYPAL_TRANSACTION_ACCOUNT_STATE' => '&Eacute;tat du compte:',
   'TEXT_PAYPAL_TRANSACTION_INTENT' => 'Intention:',
   'TEXT_PAYPAL_TRANSACTION_STATE' => 'Statut:',
-  
-  
+  'TEXT_PAYPAL_TRANSACTION_ID' => 'ID:',
+
+
+
   // transactions
   'TEXT_PAYPAL_TRANSACTIONS_STATUS' => 'Transaction',
   'TEXT_PAYPAL_TRANSACTIONS_PAYMENT' => 'Paiement:',
@@ -34,8 +36,10 @@ $lang_array = array(
   'TEXT_PAYPAL_TRANSACTIONS_TOTAL' => 'Montant:',
   'TEXT_PAYPAL_TRANSACTIONS_VALID' => 'valable pour:',
   'TEXT_PAYPAL_TRANSACTIONS_ID' => 'ID:',
-  
-  
+  'TEXT_PAYPAL_TRANSACTIONS_FEE' => 'B&acirc;timent:',
+
+
+
   // instruction
   'TEXT_PAYPAL_INSTRUCTIONS' => 'Mandat postal',
   'TEXT_PAYPAL_INSTRUCTIONS_CHECKOUT' => 'Veuillez transf&eacute;rer le montant de %s au moins &agrave; %s sur le compte suivant:',
@@ -55,15 +59,25 @@ $lang_array = array(
   'TEXT_PAYPAL_REFUND_COMMENT' => 'Commentaire:<br />(127 caract &egrave;res maximum)',
   'TEXT_PAYPAL_REFUND_AMOUNT' => 'Montant:',
   'TEXT_PAYPAL_REFUND_SUBMIT' => 'Remboursement',
-  
-  
+  'TEXT_PAYPAL_REFUND_CAPTURE' => 'Confiscation:',
+
+
+
   // capture
-  'TEXT_PAYPAL_CAPTURE' => 'Capture',
-  'TEXT_PAYPAL_CAPTURE_LEFT' => 'Quantit&eacute; de captures possibles: ',
-  'TEXT_PAYPAL_CAPTURE_IS_FINAL' => 'Capture finale:',
+  'TEXT_PAYPAL_CAPTURE' => 'Encaisser le paiement',
+  'TEXT_PAYPAL_CAPTURE_LEFT' => 'Nombre de recouvrements possibles: ',
+  'TEXT_PAYPAL_CAPTURE_IS_FINAL' => 'Dernier recouvrement:',
   'TEXT_PAYPAL_CAPTURE_AMOUNT' => 'Montant:',
-  'TEXT_PAYPAL_CAPTURE_SUBMIT' => 'Capture',
-  'TEXT_PAYPAL_CAPTURED' => 'Paiement saisi',
+  'TEXT_PAYPAL_CAPTURE_SUBMIT' => 'Encaisser le paiement',
+  'TEXT_PAYPAL_CAPTURED' => 'Paiement encaiss&eacute;',
+  'TEXT_PAYPAL_CAPTURE_AUTHORIZE' => 'Autorisation:',
+
+
+  // tracking
+  'TEXT_PAYPAL_TRACKING' => 'Suivi:',
+  'TEXT_PAYPAL_ADDTRACKING' => 'Suivi',
+  'TEXT_PAYPAL_TRACKING_SUBMIT' => 'Ajouter un num&eacute;ro d\'envoi',
+
 
    // products
    'TEXT_PAYPAL_PRODUCTS_TYPE' => 'Type de produit',
@@ -123,7 +137,7 @@ $lang_array = array(
   
   
   // diverse
-  'MODULE_PAYMENT_PAYPAL_TEXT_ORDER' => 'Votre commande &agrave; '.STORE_NAME,
+  'MODULE_PAYMENT_PAYPAL_TEXT_ORDER' => 'Votre commande &agrave; '.(defined('STORE_NAME') ? STORE_NAME : ''),
 
 
   // status
@@ -151,6 +165,9 @@ $lang_array = array(
   
   'TEXT_PAYPALINSTALLMENT_CREDITOR' => 'Emprunteur',
   'TEXT_PAYPALINSTALLMENT_INFO_LINK' => 'Informations sur les tarifs possibles',
+
+  'TEXT_PAYPAL_INSTRUMENT_DECLINED_ERROR' => 'Le moyen de paiement choisi a &eacute;t&eacute; refus&eacute; par PayPal ou par la banque, ou il ne peut pas &ecirc;tre utilis&eacute; pour ce paiement..',
+  'IMAGE_ICON_STATUS_YELLOW' => 'temporairement indisponible',
 
 );
 

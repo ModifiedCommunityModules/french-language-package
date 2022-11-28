@@ -24,5 +24,5 @@
   define('MODULE_ORDER_TOTAL_SUBTOTAL_STATUS_DESC','Voulez-vous afficher le sous-total des co&ucirc;ts de la commande ?');
 
   define('MODULE_ORDER_TOTAL_SUBTOTAL_SORT_ORDER_TITLE','Ordre de tri');
-  define('MODULE_ORDER_TOTAL_SUBTOTAL_SORT_ORDER_DESC','Trier l\'ordre d\'affichage.');
+  define('MODULE_ORDER_TOTAL_SUBTOTAL_SORT_ORDER_DESC','Trier l\'ordre d\'affichage');
 ?>

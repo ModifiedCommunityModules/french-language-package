@@ -25,7 +25,7 @@
   define('MODULE_ORDER_TOTAL_SHIPPING_STATUS_DESC','Voulez-vous afficher les frais d\'exp&eacute;dition de la commande?');
 
   define('MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER_TITLE','Ordre de tri');
-  define('MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER_DESC', 'Trier l\'ordre d\'affichage.');
+  define('MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER_DESC', 'Trier l\'ordre d\'affichage');
 
   define('MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING_TITLE','Autoriser la livraison gratuite');
   define('MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING_DESC','Voulez-vous autoriser la livraison gratuite?');

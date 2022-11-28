@@ -12,8 +12,8 @@
 
 
 $lang_array = array(
-  'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_TITLE' => 'Abonnement PayPal',
-  'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_INFO' => '<img src="https://www.paypal.com/de_DE/DE/i/logo/lockbox_150x47.gif" />',
+  'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_ADMIN_TITLE' => 'Abonnement PayPal (pour les paiements r&eacute;currents)',
+  'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_INFO' => ((!defined('RUN_MODE_ADMIN') && function_exists('xtc_href_link')) ? '<img src="'.xtc_href_link(DIR_WS_ICONS.'paypal.png', '', 'SSL', false).'" />' : ''),
   'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_DESCRIPTION' => 'PayPal comme lien de paiement qui n\'est disponible pour le client qu\'apr&egrave;s la conclusion de la commande. D&eacute;cidez vous-m&ecirc;me o&ugrave; le client re&ccedil;oit la demande de paiement.',
   'MODULE_PAYMENT_PAYPALSUBSCRIPTION_ALLOWED_TITLE' => 'Zones autoris&eacute;es',
   'MODULE_PAYMENT_PAYPALSUBSCRIPTION_ALLOWED_DESC' => 'Indiquez <b>individuellement</b> les zones qui doivent &ecirc;tre autoris&eacute;es pour ce module. (par ex. AT,DE (si vide, toutes les zones sont autoris&eacute;es))',
@@ -28,7 +28,8 @@ $lang_array = array(
   'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_EXTENDED_DESCRIPTION' => '<strong><font color="red">ATTENTION:</font></strong> Veuillez encore effectuer les r&eacute;glages sous "Modules partenaires". -> "PayPal" -> <a href="'.xtc_href_link('paypal_config.php').'"><strong>"Konfiguration de PayPal"</strong></a> vor!',
 
   'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_ERROR_HEADING' => 'Remarque',
-  'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_ERROR_MESSAGE' => 'Le paiement PayPal a &eacute;t&eacute; annul&eacute;',  
+    'MODULE_PAYMENT_PAYPALSUBSCRIPTION_TEXT_ERROR_MESSAGE' => 'Le paiement de l\'abonnement PayPal a &eacute;t&eacute; annul&eacute;',  
+
 );
 
 

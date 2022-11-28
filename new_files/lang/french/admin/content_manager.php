@@ -1,9 +1,9 @@
 <?php
  defined('HEADING_TITLE') OR define('HEADING_TITLE','Gestionnaire de contenu');
- define('HEADING_CONTENT','Site');
- define('HEADING_PRODUCTS_CONTENT','Contenu des produits');
- define('HEADING_CONTENT_MANAGER_CONTENT','Contenu du site');
- define('HEADING_EMAIL_CONTENT','Contenu du courrier &eacute;lectronique');
+ define('HEADING_CONTENT','Pages de contenu');
+ define('HEADING_PRODUCTS_CONTENT','Article Annexe');
+ define('HEADING_CONTENT_MANAGER_CONTENT','Annexe au contenu');
+ define('HEADING_EMAIL_CONTENT','E-mail annexes');
  define('TABLE_HEADING_CONTENT_ID','ID');
  define('TABLE_HEADING_CONTENT_TITLE','Titre');
  define('TABLE_HEADING_CONTENT_FILE','Dossier');
@@ -11,6 +11,8 @@
  define('TABLE_HEADING_CONTENT_BOX','Bo&icirc;te');
  define('TABLE_HEADING_PRODUCTS_ID','ID');
  define('TABLE_HEADING_PRODUCTS','Produit');
+ define('TABLE_HEADING_MODEL','Num&eacute;ro d\'article');
+ defined('TABLE_HEADING_IMAGE') OR define('TABLE_HEADING_IMAGE','Image');
  define('TABLE_HEADING_PRODUCTS_CONTENT_ID','ID');
  define('TABLE_HEADING_CONTENT_MANAGER_ID','ID');
  define('TABLE_HEADING_CONTENT_MANAGER','Voir');
@@ -31,7 +33,17 @@
  define('TEXT_PREVIEW','Aper&ccedil;u');
  define('CONFIRM_DELETE','Supprimer le contenu?');
  define('CONTENT_NOTE','Le contenu marqu&eacute; d\'un <span class="col-red">*</span> fait partie du syst&egrave;me et ne peut &ecirc;tre supprim&eacute;!');
- // edit
+
+ defined('TEXT_DATE_ADDED') OR define('TEXT_DATE_ADDED','Ajout&eacute; le');
+ defined('TEXT_LAST_MODIFIED') OR define('TEXT_LAST_MODIFIED','&Eacute;dit&eacute; le');
+ defined('HEADING_TITLE_GOTO') OR define('HEADING_TITLE_GOTO','Aller &agrave;:');
+ define('TEXT_DISPLAY_NUMBER_OF_CONTENT_MANAGER','Afficher <b>%d</b> &agrave;  <b>%d</b> (sur <b>%d</b> contenus)');
+ define('TEXT_INFO_HEADING_DELETE_CONTENT_MANAGER','Lire le contenu');
+ defined('TEXT_INFO_DELETE_INTRO') OR define('TEXT_INFO_DELETE_INTRO','&Ecirc;tes-vous s&ucirc;r(e) de vouloir lire ce contenu ?');
+ define('TEXT_SEARCH', 'Recherche:');
+
+
+// edit
  define('TEXT_LANGUAGE','Langue:');
  define('TEXT_STATUS','Visible:');
  define('TEXT_STATUS_DESCRIPTION','Afficher le lien dans la bo&icirc;te d\'information?');
@@ -77,4 +89,7 @@
  define('TEXT_CONTENT_DOUBLE_GROUP_INDEX', 'Dupliquer l\'index des groupes de contenu ! Veuillez sauvegarder &agrave; nouveau. Le probl&egrave;me est ainsi automatiquement corrig&eacute;!');
  defined('TEXT_CHARACTERS') OR define('TEXT_CHARACTERS','Signes');
  define('TEXT_KEEP_FILENAME', 'Conserver le nom du fichier:');
+ defined('TEXT_IMAGE_NONEXISTENT') OR define('TEXT_IMAGE_NONEXISTENT','Pas d\'image disponible!');
+ define('TEXT_CONTENT_HELP', 'Pour cr&eacute;er une nouvelle annexe, utilisez la recherche');
+
 ?>

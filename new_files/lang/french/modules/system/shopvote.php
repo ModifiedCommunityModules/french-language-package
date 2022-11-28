@@ -16,4 +16,7 @@ define('MODULE_SHIPPING_EASYREVIEWS_TITLE', 'Code EasyReviews');
 define('MODULE_SHIPPING_EASYREVIEWS_DESC', 'Copiez le code JavaScript/HTML de l\'espace revendeur et collez-le ici. Le module remplace automatiquement les variables "CUSTOMERMAIL" et "ORDERNUMBER" par les donn&eacute;es correspondantes.');
 define('MODULE_SHIPPING_RATINGSTARS_TITLE', 'Code RatingStars');
 define('MODULE_SHIPPING_RATINGSTARS_DESC', 'L\'int&eacute;gration est facile gr&acirc;ce &agrave; l\'utilisation des graphiques ShopVote suivants : "AllVotes I + II" et "VoteBadge I - III". Vous pouvez trouver les graphiques dans la zone des revendeurs de SHOPVOTE sous "graphiques & sceaux". Si vous avez s&eacute;lectionn&eacute; un graphique, vous pouvez afficher le code et le coller ici.');
+  define('MODULE_SHOPVOTE_DEFAULT_LANG_TITLE', 'Langue de repli');
+  define('MODULE_SHOPVOTE_DEFAULT_LANG_DESC', 'Choisissez la langue des &eacute;valuations dans une langue qui n\'a pas &eacute;t&eacute; cr&eacute;&eacute;e dans la boutique.');
+
 ?>

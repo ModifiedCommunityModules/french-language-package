@@ -1,6 +1,25 @@
 <?php
 define('HEADING_TITLE', 'Mise &agrave; jour du logiciel');
 define('HEADING_SUBTITLE', 'V&eacute;rification de la mise &agrave; jour');
+
+define('TEXT_HEADING_STATUS', 'Statut de mise &agrave; jour');
+define('TEXT_HEADING_INSTALLED', 'Install&eacute;');
+define('TEXT_HEADING_VERSION_INTEGRATED', 'Version int&eacute;gr&eacute;e');
+define('TEXT_HEADING_VERSION_AVAILABLE', 'Version disponible');
+define('TEXT_HEADING_ACTION', 'Action');
+define('IMAGE_ICON_STATUS_OK','actuel');
+define('IMAGE_ICON_STATUS_UPDATE','mise &agrave; jour n&eacute;cessaire');
+define('IMAGE_ICON_STATUS_INSTALLED','installe');
+define('IMAGE_ICON_STATUS_INACTIVE','inactif');
+define('IMAGE_ICON_STATUS_NOT_INSTALLED','non install&eacute;');
+define('BUTTON_MODULE_DOWNLOAD','T&eacute;l&eacute;charger le module');
+define('BUTTON_OFFER','Demander une offre de mise &agrave; jour');
+define('BUTTON_AUTOUPDATER','Ouvrir l\'Autoupdater');
+define('TEXT_INFO_UPDATE_OK','<div class="success_message">Votre version est &agrave; jour, aucune mise &agrave; jour n\'est n&eacute;cessaire.</div>');
+define('TEXT_INFO_UPDATE_NEEDED','<div class="error_message">Votre version n\'est plus &agrave; jour, une mise &agrave; jour est n&eacute;cessaire.</div>');
+define('ERROR_CORRUPTED_FILE', 'Le fichier n\'a pas pu &ecirc;tre d&eacute;compress&eacute;');
+define('ERROR_CREATE_DIRECTORY', 'Le r&eacute;pertoire n\'a pas pu &ecirc;tre cr&eacute;&eacute;');
+define('ERROR_UPDATE_NOT_POSSIBLE', 'La mise &agrave; jour automatique n\'est pas possible');
 define('TEXT_DB_VERSION','Version de la base de donn&eacute;es:');
 define('TEXT_INFO_UPDATE_RECOMENDED', '<div class="error_message">Une nouvelle version est disponible. Vous pouvez la t&eacute;l&eacute;charger &agrave; partir d\'ici: <a rel="nofollow noopener" href="https://www.modified-shop.org/download" target="_blank">https://www.modified-shop.org/download</a></div>');
 define('TEXT_INFO_UPDATE_NOT_POSSIBLE', '<div class="error_message">D&eacute;sol&eacute;, aucun contr&ocirc;le n\'a &eacute;t&eacute; possible. Veuillez visiter notre <a rel="nofollow noopener" target="_blank" href="https://www.modified-shop.org"><b>site web</b></a>.</div>');

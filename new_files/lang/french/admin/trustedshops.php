@@ -1,4 +1,8 @@
 <?php
+define('TEXT_SETTINGS', 'R&eacute;glages');
+define('HEADING_FEATURES', 'Fonctions');
+
+
 define('HEADING_TITLE', 'Magasins de confiance');
 define('HEADING_TECHNOLOGIE', 'Technologie Trustbadge');
 define('HEADING_PRODUCTS', 'Produits');
@@ -22,6 +26,8 @@ define('TEXT_SNIPPETS_PRODUCTS', 'Pages d&eacute;taill&eacute;es des produits');
 define('TEXT_SNIPPETS_CATEGORY', 'Pages des cat&eacute;gories');
 define('TEXT_SNIPPETS_INDEX', 'Page principale (non recommand&eacute;)');
 define('TEXT_TRUSTEDSHOPS_BADGE', 'Choisissez une variante:');
+define('TEXT_TRUSTEDSHOPS_POSITION', 'Position:');
+
 define('TEXT_BADGE_DEFAULT', 'Standard');
 define('TEXT_BADGE_SMALL', 'Standard (petit)');
 define('TEXT_BADGE_REVIEWS', 'Examens');
@@ -32,6 +38,9 @@ define('TEXT_BADGE_INSTRUCTION', 'Vous trouverez une instruction &eacute;tape pa
 define('TEXT_BADGE_CUSTOM_CODE', 'Remplissez votre code d\'insigne de confiance ici:');
 define('TEXT_PRODUCT_STICKER_API', 'Autocollant de produit API (Beta):');
 define('TEXT_PRODUCT_STICKER_API_INFO', 'Avec notre API, nous vous fournissons l\'interface qui vous permet d\'utiliser vos &eacute;valuations de produits dans votre propre syst&egrave;me.');
+define('TEXT_PRODUCT_STICKER_API_CLIENT', '&Eacute;valuation du produit API Client:');
+define('TEXT_PRODUCT_STICKER_API_SECRET', '&Eacute;valuation du produit API Secret:');
+
 define('TEXT_PRODUCT_STICKER_STATUS', 'Statut de la vignette du produit:');
 define('TEXT_PRODUCT_STICKER', '&Eacute;dition du code de la vignette produit:');
 define('TEXT_PRODUCT_STICKER_INFO', 'La vignette produit indique les avis actuels sur les produits dans votre boutique.<br/>Configurez votre vignette produit en utilisant <a target="_blank" href="%s">nos instructions.</a>');
@@ -44,6 +53,12 @@ define('TEXT_HEADING_DELETE_TRUSTEDSHOPS', 'Suppression du TS-ID');
 define('TEXT_DELETE_INTRO', '&Ecirc;tes-vous s&ucirc;r, en supprimant ce TS-ID?');
 define('TEXT_DISABLED', 'handicap&eacute;s');
 define('TEXT_ENABLED', 'activ&eacute;');
+
+define('TEXT_LEFT', '&agrave; gauche');
+define('TEXT_RIGHT', '&agrave; droite');
+define('TEXT_CENTER', 'centr&eacute;');
+
+
 define('TEXT_DISPLAY_NUMBER_OF_TRUSTEDSHOPS', 'Affichage de <b>%d</b> &agrave; <b>%d</b> (de <b>%d</b> TS-ID)');
 define('TEXT_TS_MAIN_INFO', '
 <img src="images/trustedshops/trustmark-widget-eu-EU-v1.png" style="width:200px;float:right;margin-top:30px;padding-left:30px;"/>
@@ -64,6 +79,23 @@ define('TEXT_TS_BADGE_INFO', '
 Le module Trusted Shops int&egrave;gre la technologie Trustbadge dans votre magasin : Il affiche les &eacute;l&eacute;ments de confiance visibles sur toutes les pages de votre boutique en ligne et fonctionne comme un centre de contr&ocirc;le, offrant &agrave; vos clients la garantie de remboursement au bon moment ou envoyant une demande de r&eacute;vision apr&egrave;s le processus de commande.<br/>
 <br/>
 Et en tant que code dynamique, l\'insigne de confiance est id&eacute;alement &eacute;quip&eacute; pour l\'avenir : Les caract&eacute;ristiques peuvent &ecirc;tre mises &agrave; jour sans effort et de nouvelles fonctions peuvent &ecirc;tre int&eacute;gr&eacute;es. Avec la technologie trustbadge, vous pouvez &ecirc;tre s&ucirc;r de toujours utiliser au mieux les solutions de confiance de Trusted Shops.');
+define('TEXT_TS_FEATURES_INFO', '
+<img src="images/trustedshops/illustration-ts-badge.png" style="width:160px;float:right;margin-top:30px;padding-left:30px;"/>
+<h2>Fonctions</h2>
+<b>Vue d\'ensemble des fonctions:</b><br/>
+<br/>
+<ul>
+  <li>Afficher le badge Trust, int&eacute;grer la protection des achats & collecter des &eacute;valuations de magasins</li>
+  <li>Collecter et afficher les avis sur les produits</li>
+  <li>Configurer des multi-boutiques (par ex. plusieurs boutiques vocales) avec diff&eacute;rentes ID Trusted-Shops</li>
+</ul>
+<br/>
+Remarque : pour utiliser le module Trusted Shops, vous devez &ecirc;tre membre de Trusted Shops. Pour en savoir plus sur les produits et les avantages de Trusted Shops, consultez notre site Internet ou appelez le : +49 221 7753658<br/>
+<br/>
+Vous avez besoin d\'aide pour l\'int&eacute;gration ? Vous trouverez des instructions d\'int&eacute;gration d&eacute;taill&eacute;es dans notre centre d\'aide.<br/>
+<br/>
+Lien: <a href="https://help.etrusted.com/hc/de/articles/360045842852-Trusted-Shops-nutzen-mit-modified" target="_blank" style="text-decoration:underline">https://help.etrusted.com/hc/de/articles/360045842852-Trusted-Shops-nutzen-mit-modified</a>');
+
 define('TEXT_TS_PRODUCT_INFO', '
 <h2>Produits</h2>
 <b>Vos avantages avec Trusted Shops</b><br/>

@@ -22,4 +22,8 @@ define('TEXT_COOKIE_CONSENT_LABEL_NOCOOKIE_TEXT','Veuillez activer les cookies d
  define('TEXT_COOKIECONSENT_POLICY', 'Politique en mati&egrave;re de cookies');
  define('TEXT_COOKIECONSENT_ALLOW', 'Accepter');
  define('TEXT_COOKIECONSENT_DENY', 'Refuser');
+
+define('TEXT_COOKIE_CONSENT_LABEL_BUTTON_ESSENTIALS_ONLY','Seulement le n&eacute;cessaire');
+define('TEXT_COOKIE_CONSENT_LABEL_BUTTON_ADVANCED_SETTINGS','<i class=\"fas fa-cogs\"></i> Personnaliser les param&egrave;tres');
+
 ?>

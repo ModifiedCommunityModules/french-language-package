@@ -64,4 +64,6 @@ define('TEXT_BANNERS_DATE_FORMAT', 'AAAA-MM-JJ');
 define('TEXT_BANNERS_LANGUAGE', 'Langue:');
 define('TEXT_BANNERS_LANGUAGE_NOTE', 'S&eacute;lectionnez la langue dans laquelle la banni&egrave;re doit &ecirc;tre affich&eacute;e?');
 define('TEXT_NO_FILE', '-- pas de fichier --');
+define('TEXT_BANNERS_LATEST_STATISTICS', '%s Jours Statistiques');
+
 ?>

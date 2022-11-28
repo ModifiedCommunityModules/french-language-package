@@ -13,6 +13,7 @@ define('TEXT_SALES', 'Ventes:');
 define('TEXT_LATE_CONVERSIONS', 'Conversions tardives:');
 define('TEXT_NEW_INTRO', 'Veuillez mettre en place une nouvelle campagne.');
 define('TEXT_EDIT_INTRO', 'Veuillez effectuer tous les changements n&eacute;cessaires.');
+define('TEXT_REFERER','R&eacute;f&eacute;rent: ');
 define('TEXT_CAMPAIGNS_NAME', 'Nom de la campagne:');
 define('TEXT_CAMPAIGNS_REFID', 'Campagnes refID:');
 define('TEXT_DISPLAY_NUMBER_OF_CAMPAIGNS', 'Campagnes suivies:');

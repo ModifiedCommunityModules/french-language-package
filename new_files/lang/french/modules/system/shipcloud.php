@@ -7,7 +7,7 @@ if (defined('_VALID_XTC')) {
   define('MODULE_SHIPCLOUD_API_TITLE', '<hr noshade>API');
   define('MODULE_SHIPCLOUD_API_DESC', 'Cl&eacute; API de shipcloud');
   define('MODULE_SHIPCLOUD_PARCEL_TITLE', '<hr noshade>Taille de l\'emballage');
-  define('MODULE_SHIPCLOUD_PARCEL_DESC', 'Veuillez d&eacute;finir la taille des paquets comme suit : longueur, largeur, hauteur;<br/>Vous pouvez d&eacute;finir plusieurs tailles s&eacute;par&eacute;es par un point-virgule ( ;). Par exemple : 20,40,30;15,20,20 ;');
+  define('MODULE_SHIPCLOUD_PARCEL_DESC', 'Veuillez indiquer les dimensions du paquet en cm de la mani&egrave;re suivante : Longueur,largeur,hauteur;&lt;br/&gt;Plusieurs dimensions de colis peuvent &ecirc;tre indiqu&eacute;es en les s&eacute;parant par un point-virgule ( ;). ex : 20,40,30;15,20,20 ;');
   define('MODULE_SHIPCLOUD_COMPANY_TITLE', '<hr noshade>D&eacute;tails du client<br/>');
   define('MODULE_SHIPCLOUD_COMPANY_DESC', 'Soci&eacute;t&eacute;:');
   define('MODULE_SHIPCLOUD_FIRSTNAME_TITLE', '');
@@ -35,7 +35,7 @@ if (defined('_VALID_XTC')) {
   define('MODULE_SHIPCLOUD_EMAIL_TITLE', '<hr noshade>Notification par courrier &eacute;lectronique');
   define('MODULE_SHIPCLOUD_EMAIL_DESC', 'Aviser le client par courrier &eacute;lectronique?');
   define('MODULE_SHIPCLOUD_EMAIL_TYPE_TITLE', '<hr noshade>Notification');
-  define('MODULE_SHIPCLOUD_EMAIL_TYPE_DESC', 'Le client doit-il &ecirc;tre averti par le Shop ou shipcloud?<br><Note:</b>Pour une notification de la boutique doit d&eacute;finir un Webhook &agrave; cette URL: '.xtc_catalog_href_link('callback/shipcloud/callback.php', '', 'SSL', false).' dans shipcloud.');
+  define('MODULE_SHIPCLOUD_EMAIL_TYPE_DESC', 'Le client doit-il &ecirc;tre averti par la boutique ou par shipcloud ? &lt;br&gt;&lt;Remarque:&lt;/b&gt;Pour &ecirc;tre averti par la boutique, un webhook doit &ecirc;tre cr&eacute;&eacute; sur cette URL.: '.((defined('RUN_MODE_ADMIN') && function_exists('xtc_catalog_href_link')) ? xtc_catalog_href_link('callback/shipcloud/callback.php', '', 'SSL', false) : '').' &ecirc;tre cr&eacute;&eacute;s dans shipcloud.');
 }
 
 define('SHIPMENT.TRACKING.SHIPCLOUD_LABEL_CREATED', 'Exp&eacute;dition cr&eacute;&eacute;e &agrave; shipcloud');
